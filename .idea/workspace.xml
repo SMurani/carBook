@@ -2,387 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c798c28c-1453-4715-afa2-4e9215d9f5ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ReviewBooking.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/app/angular/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/app/reviewBooking.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/app/summary.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook.war" afterPath="$PROJECT_DIR$/target/CarBook.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/font-awesome/fonts/fontawesome-webfont862f.eot" afterPath="$PROJECT_DIR$/target/CarBook/1assets/font-awesome/fonts/fontawesome-webfont862f.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/font-awesome/fonts/fontawesome-webfont862f.ttf" afterPath="$PROJECT_DIR$/target/CarBook/1assets/font-awesome/fonts/fontawesome-webfont862f.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/font-awesome/fonts/fontawesome-webfont862f.woff" afterPath="$PROJECT_DIR$/target/CarBook/1assets/font-awesome/fonts/fontawesome-webfont862f.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/font-awesome/fonts/fontawesome-webfontd41d.eot" afterPath="$PROJECT_DIR$/target/CarBook/1assets/font-awesome/fonts/fontawesome-webfontd41d.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/target/CarBook/1assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/target/CarBook/1assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/target/CarBook/1assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/fonts/glyphicons-halflings-regulard41d.eot" afterPath="$PROJECT_DIR$/target/CarBook/1assets/fonts/glyphicons-halflings-regulard41d.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-01.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-02.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-03.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-04.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-04.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-05.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-05.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-06.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-06.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-07.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-07.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-08.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-08.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-09.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-09.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-10.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-11.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/friends/fr-11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/instagram.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/instagram.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/login-bg1.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/login-bg1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/ny.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/ny.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/portfolio/port01.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/portfolio/port01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/portfolio/port02.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/portfolio/port02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/portfolio/port03.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/portfolio/port03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/portfolio/port04.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/portfolio/port04.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/portfolio/port05.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/portfolio/port05.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/portfolio/port06.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/portfolio/port06.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/product.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/product.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/product.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/product.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/ui-danro.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/ui-danro.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/ui-divya.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/ui-divya.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/ui-sam.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/ui-sam.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/ui-sherman.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/ui-sherman.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/ui-zac.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/ui-zac.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/img/weather.jpg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/img/weather.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/examples/examples_support/details_close.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/examples/examples_support/details_close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/examples/examples_support/details_open.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/examples/examples_support/details_open.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/back_disabled.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/back_disabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/back_enabled.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/back_enabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/back_enabled_hover.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/back_enabled_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/forward_disabled.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/forward_disabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/forward_enabled.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/forward_enabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/forward_enabled_hover.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/forward_enabled_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/sort_asc.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/sort_asc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/sort_asc_disabled.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/sort_asc_disabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/sort_both.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/sort_both.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/sort_desc.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/sort_desc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/sort_desc_disabled.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/images/sort_desc_disabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/dropzone/images/spritemap.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/dropzone/images/spritemap.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/dropzone/images/spritemap@2x.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/dropzone/images/spritemap@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/img/loading.gif" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/img/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/img/progressbar.gif" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/img/progressbar.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/gritter/images/gritter-light.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/gritter/images/gritter-light.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/gritter/images/gritter.png" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/gritter/images/gritter.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/gritter/images/ie-spacer.gif" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/gritter/images/ie-spacer.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/lineicons/fonts/linecons.eot" afterPath="$PROJECT_DIR$/target/CarBook/1assets/lineicons/fonts/linecons.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/font-awesome/fonts/fontawesome-webfont862f.eot" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/font-awesome/fonts/fontawesome-webfont862f.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/font-awesome/fonts/fontawesome-webfont862f.ttf" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/font-awesome/fonts/fontawesome-webfont862f.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/font-awesome/fonts/fontawesome-webfont862f.woff" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/font-awesome/fonts/fontawesome-webfont862f.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/font-awesome/fonts/fontawesome-webfontd41d.eot" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/font-awesome/fonts/fontawesome-webfontd41d.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/fonts/glyphicons-halflings-regulard41d.eot" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/fonts/glyphicons-halflings-regulard41d.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-01.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-02.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-03.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-04.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-04.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-05.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-05.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-06.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-06.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-07.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-07.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-08.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-08.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-09.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-09.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-10.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-11.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/friends/fr-11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/instagram.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/instagram.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/login-bg.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/login-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/ny.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/ny.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/portfolio/port01.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/portfolio/port01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/portfolio/port02.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/portfolio/port02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/portfolio/port03.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/portfolio/port03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/portfolio/port04.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/portfolio/port04.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/portfolio/port05.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/portfolio/port05.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/portfolio/port06.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/portfolio/port06.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/product.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/product.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/product.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/product.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/ui-danro.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/ui-danro.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/ui-divya.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/ui-divya.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/ui-sam.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/ui-sam.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/ui-sherman.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/ui-sherman.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/ui-zac.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/ui-zac.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/weather.jpg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/img/weather.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/examples/examples_support/details_close.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/examples/examples_support/details_close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/examples/examples_support/details_open.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/examples/examples_support/details_open.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/back_disabled.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/back_disabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/back_enabled.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/back_enabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/back_enabled_hover.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/back_enabled_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/forward_disabled.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/forward_disabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/forward_enabled.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/forward_enabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/forward_enabled_hover.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/forward_enabled_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/sort_asc.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/sort_asc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/sort_asc_disabled.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/sort_asc_disabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/sort_both.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/sort_both.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/sort_desc.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/sort_desc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/sort_desc_disabled.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/images/sort_desc_disabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/dropzone/images/spritemap.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/dropzone/images/spritemap.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/dropzone/images/spritemap@2x.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/dropzone/images/spritemap@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/img/loading.gif" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/img/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/img/progressbar.gif" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/img/progressbar.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/gritter/images/gritter-light.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/gritter/images/gritter-light.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/gritter/images/gritter.png" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/gritter/images/gritter.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/gritter/images/ie-spacer.gif" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/gritter/images/ie-spacer.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/lineicons/fonts/linecons.eot" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/lineicons/fonts/linecons.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/font-awesome/fonts/fontawesome-webfontd41d.eot" afterPath="$PROJECT_DIR$/target/CarBook/font-awesome/fonts/fontawesome-webfontd41d.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/font-awesome/fonts/fontawesome-webfonte0a5.eot" afterPath="$PROJECT_DIR$/target/CarBook/font-awesome/fonts/fontawesome-webfonte0a5.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/font-awesome/fonts/fontawesome-webfonte0a5.ttf" afterPath="$PROJECT_DIR$/target/CarBook/font-awesome/fonts/fontawesome-webfonte0a5.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/font-awesome/fonts/fontawesome-webfonte0a5.woff" afterPath="$PROJECT_DIR$/target/CarBook/font-awesome/fonts/fontawesome-webfonte0a5.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/font-awesome/fonts/fontawesome-webfonte0a5.woff2" afterPath="$PROJECT_DIR$/target/CarBook/font-awesome/fonts/fontawesome-webfonte0a5.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/car/bookings/model/Bookings.java" afterPath="$PROJECT_DIR$/src/main/java/car/bookings/model/Bookings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Admin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Booking.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Booking.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/custom/css/login.css" afterPath="$PROJECT_DIR$/src/main/webapp/custom/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/dashgum/assets/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/dashgum/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/app/booking.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/app/booking.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/app/carPrice.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/app/carPrice.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/app/userProfile.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/app/userProfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/app/vehicle.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/app/vehicle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/app/vehiclelist.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/app/vehiclelist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/css/style-responsive.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/css/style-responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/css/style.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/css/table-responsive.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/css/table-responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/css/to-do.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/css/to-do.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/css/zabuto_calendar.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/css/zabuto_calendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/font-awesome/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/font-awesome/fonts/fontawesome-webfont862f.svg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/font-awesome/fonts/fontawesome-webfont862f.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/target/CarBook/1assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/DT_bootstrap.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/DT_bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/demo_page.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/demo_page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/demo_table.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/demo_table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/images/sort_asc.html" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/images/sort_asc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/images/sort_asc_disabled.html" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/images/sort_asc_disabled.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/images/sort_both.html" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/images/sort_both.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/images/sort_desc.html" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/images/sort_desc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/images/sort_desc_disabled.html" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/css/images/sort_desc_disabled.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/js/jquery.dataTables.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/js/jquery.dataTables.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/js/jquery.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/jsDT_bootstrap.html" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-datatable/media/jsDT_bootstrap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-form-components.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/advanced-form-components.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-datepicker/css/datepicker.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-datepicker/css/datepicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-datepicker/js/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-datepicker/js/bootstrap-datepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-daterangepicker/date.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-daterangepicker/date.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-daterangepicker/daterangepicker.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-daterangepicker/daterangepicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-daterangepicker/daterangepicker.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-daterangepicker/daterangepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-daterangepicker/moment.min.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-daterangepicker/moment.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-datetimepicker/datertimepicker.html" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-datetimepicker/datertimepicker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-fileupload/bootstrap-fileupload.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-fileupload/bootstrap-fileupload.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-fileupload/bootstrap-fileupload.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-fileupload/bootstrap-fileupload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-inputmask/bootstrap-inputmask.min.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-inputmask/bootstrap-inputmask.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-switch.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-switch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-timepicker/compiled/timepicker.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-timepicker/compiled/timepicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-timepicker/js/bootstrap-timepicker.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-timepicker/js/bootstrap-timepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-wysihtml5/bootstrap-wysihtml5.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-wysihtml5/bootstrap-wysihtml5.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-wysihtml5/bootstrap-wysihtml5.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-wysihtml5/bootstrap-wysihtml5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-wysihtml5/wysihtml5-0.3.0.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap-wysihtml5/wysihtml5-0.3.0.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/calendar-conf-events.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/calendar-conf-events.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/chart-master/Chart.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/chart-master/Chart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/chartjs-conf.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/chartjs-conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/ckeditor/ckeditor.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/ckeditor/ckeditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/common-scripts.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/common-scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/dropzone/css/dropzone.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/dropzone/css/dropzone.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/dropzone/dropzone.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/dropzone/dropzone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/fancybox/jquery.fancybox.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/fancybox/jquery.fancybox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/fancybox/jquery.fancybox.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/fancybox/jquery.fancybox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/css/jquery.fileupload-noscript.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/css/jquery.fileupload-noscript.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/css/jquery.fileupload-ui-noscript.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/css/jquery.fileupload-ui-noscript.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/css/jquery.fileupload-ui.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/css/jquery.fileupload-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/css/jquery.fileupload.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/css/jquery.fileupload.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.fileupload-audio.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.fileupload-audio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.fileupload-image.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.fileupload-image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.fileupload-process.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.fileupload-process.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.fileupload-ui.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.fileupload-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.fileupload-validate.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.fileupload-validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.fileupload-video.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.fileupload-video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.fileupload.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.fileupload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.iframe-transport.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/jquery.iframe-transport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/main.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/vendor/jquery.ui.widget.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/file-uploader/js/vendor/jquery.ui.widget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/flot/jquery.flot.crosshair.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/flot/jquery.flot.crosshair.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/flot/jquery.flot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/flot/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/flot/jquery.flot.resize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/flot/jquery.flot.stack.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/flot/jquery.flot.stack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/flotchart-conf.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/flotchart-conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/form-component.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/form-component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/form-validation-script.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/form-validation-script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/fullcalendar/bootstrap-fullcalendar.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/fullcalendar/bootstrap-fullcalendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/fullcalendar/fullcalendar.min.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/fullcalendar/fullcalendar.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/google-maps/data/points.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/google-maps/data/points.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/google-maps/maplace.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/google-maps/maplace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/gritter-conf.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/gritter-conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/gritter/css/jquery.gritter.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/gritter/css/jquery.gritter.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/gritter/js/jquery.gritter.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/gritter/js/jquery.gritter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/jjquery-1.8.3.min.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/jjquery-1.8.3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery-1.8.3.min.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery-1.8.3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery-ui-1.9.2.custom.min.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery-ui-1.9.2.custom.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.backstretch.min.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.backstretch.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.dcjqaccordion.2.7.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.dcjqaccordion.2.7.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.nicescroll.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.nicescroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.scrollTo.min.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.scrollTo.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.sparkline.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.sparkline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.tagsinput.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.tagsinput.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.ui.touch-punch.min.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/jquery.ui.touch-punch.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/morris-conf.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/morris-conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/sparkline-chart.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/sparkline-chart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/tasks.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/tasks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/xchart/d3.v3.min.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/xchart/d3.v3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/xchart/xcharts.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/xchart/xcharts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/xchart/xcharts.min.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/xchart/xcharts.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/js/zabuto_calendar.js" afterPath="$PROJECT_DIR$/target/CarBook/1assets/js/zabuto_calendar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/1assets/lineicons/style.css" afterPath="$PROJECT_DIR$/target/CarBook/1assets/lineicons/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/Admin.jsp" afterPath="$PROJECT_DIR$/target/CarBook/Admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/Booking.jsp" afterPath="$PROJECT_DIR$/target/CarBook/Booking.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/Login.jsp" afterPath="$PROJECT_DIR$/target/CarBook/Login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/WEB-INF/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/CarBook/WEB-INF/classes/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/advanced.jsp" afterPath="$PROJECT_DIR$/target/CarBook/advanced.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/custom/css/login.css" afterPath="$PROJECT_DIR$/target/CarBook/custom/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/advanced_form_components.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/advanced_form_components.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/advanced_table.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/advanced_table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/css/style-responsive.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/css/style-responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/css/style.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/css/table-responsive.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/css/table-responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/css/to-do.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/css/to-do.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/css/zabuto_calendar.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/css/zabuto_calendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/font-awesome/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/font-awesome/fonts/fontawesome-webfont862f.svg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/font-awesome/fonts/fontawesome-webfont862f.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/DT_bootstrap.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/DT_bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/demo_page.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/demo_page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/demo_table.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/demo_table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/images/sort_asc.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/images/sort_asc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/images/sort_asc_disabled.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/images/sort_asc_disabled.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/images/sort_both.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/images/sort_both.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/images/sort_desc.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/images/sort_desc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/images/sort_desc_disabled.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/css/images/sort_desc_disabled.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/js/jquery.dataTables.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/js/jquery.dataTables.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/js/jquery.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/jsDT_bootstrap.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-datatable/media/jsDT_bootstrap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-form-components.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/advanced-form-components.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-datepicker/css/datepicker.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-datepicker/css/datepicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-datepicker/js/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-datepicker/js/bootstrap-datepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-daterangepicker/date.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-daterangepicker/date.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-daterangepicker/daterangepicker.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-daterangepicker/daterangepicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-daterangepicker/daterangepicker.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-daterangepicker/daterangepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-daterangepicker/moment.min.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-daterangepicker/moment.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-datetimepicker/datertimepicker.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-datetimepicker/datertimepicker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-fileupload/bootstrap-fileupload.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-fileupload/bootstrap-fileupload.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-fileupload/bootstrap-fileupload.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-fileupload/bootstrap-fileupload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-inputmask/bootstrap-inputmask.min.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-inputmask/bootstrap-inputmask.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-switch.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-switch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-timepicker/compiled/timepicker.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-timepicker/compiled/timepicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-timepicker/js/bootstrap-timepicker.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-timepicker/js/bootstrap-timepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-wysihtml5/bootstrap-wysihtml5.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-wysihtml5/bootstrap-wysihtml5.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-wysihtml5/bootstrap-wysihtml5.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-wysihtml5/bootstrap-wysihtml5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-wysihtml5/wysihtml5-0.3.0.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap-wysihtml5/wysihtml5-0.3.0.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/calendar-conf-events.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/calendar-conf-events.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/chart-master/Chart.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/chart-master/Chart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/chartjs-conf.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/chartjs-conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/ckeditor/ckeditor.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/ckeditor/ckeditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/common-scripts.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/common-scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/dropzone/css/dropzone.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/dropzone/css/dropzone.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/dropzone/dropzone.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/dropzone/dropzone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/fancybox/jquery.fancybox.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/fancybox/jquery.fancybox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/fancybox/jquery.fancybox.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/fancybox/jquery.fancybox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/css/jquery.fileupload-noscript.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/css/jquery.fileupload-noscript.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/css/jquery.fileupload-ui-noscript.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/css/jquery.fileupload-ui-noscript.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/css/jquery.fileupload-ui.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/css/jquery.fileupload-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/css/jquery.fileupload.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/css/jquery.fileupload.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.fileupload-audio.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.fileupload-audio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.fileupload-image.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.fileupload-image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.fileupload-process.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.fileupload-process.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.fileupload-ui.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.fileupload-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.fileupload-validate.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.fileupload-validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.fileupload-video.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.fileupload-video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.fileupload.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.fileupload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.iframe-transport.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/jquery.iframe-transport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/main.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/vendor/jquery.ui.widget.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/file-uploader/js/vendor/jquery.ui.widget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/flot/jquery.flot.crosshair.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/flot/jquery.flot.crosshair.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/flot/jquery.flot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/flot/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/flot/jquery.flot.resize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/flot/jquery.flot.stack.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/flot/jquery.flot.stack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/flotchart-conf.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/flotchart-conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/form-component.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/form-component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/form-validation-script.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/form-validation-script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/fullcalendar/bootstrap-fullcalendar.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/fullcalendar/bootstrap-fullcalendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/fullcalendar/fullcalendar.min.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/fullcalendar/fullcalendar.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/google-maps/data/points.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/google-maps/data/points.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/google-maps/maplace.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/google-maps/maplace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/gritter-conf.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/gritter-conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/gritter/css/jquery.gritter.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/gritter/css/jquery.gritter.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/gritter/js/jquery.gritter.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/gritter/js/jquery.gritter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jjquery-1.8.3.min.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jjquery-1.8.3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery-1.8.3.min.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery-1.8.3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery-ui-1.9.2.custom.min.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery-ui-1.9.2.custom.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.backstretch.min.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.backstretch.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.dcjqaccordion.2.7.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.dcjqaccordion.2.7.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.nicescroll.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.nicescroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.scrollTo.min.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.scrollTo.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.sparkline.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.sparkline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.tagsinput.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.tagsinput.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.ui.touch-punch.min.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/jquery.ui.touch-punch.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/morris-conf.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/morris-conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/sparkline-chart.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/sparkline-chart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/tasks.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/tasks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/xchart/d3.v3.min.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/xchart/d3.v3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/xchart/xcharts.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/xchart/xcharts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/xchart/xcharts.min.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/xchart/xcharts.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/zabuto_calendar.js" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/js/zabuto_calendar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/assets/lineicons/style.css" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/assets/lineicons/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/basic_table.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/basic_table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/blank.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/blank.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/buttons.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/calendar.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/calendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/chartjs.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/chartjs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/chat_room.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/chat_room.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/dropzone.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/dropzone.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/faq.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/faq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/file_upload.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/file_upload.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/flot_chart.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/flot_chart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/form_component.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/form_component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/form_validation.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/form_validation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/gallery.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/general.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/general.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/google_maps.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/google_maps.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/inbox.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/inbox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/index.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/inline_editor.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/inline_editor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/invoice.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/invoice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/lobby.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/lobby.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/lock_screen.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/lock_screen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/login.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/mail_compose.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/mail_compose.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/mail_view.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/mail_view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/morris.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/morris.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/panels.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/panels.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/pricing_table.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/pricing_table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/profile.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/responsive_table.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/responsive_table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/todo_list.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/todo_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/dashgum/xchart.html" afterPath="$PROJECT_DIR$/target/CarBook/dashgum/xchart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/target/CarBook/font-awesome/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/target/CarBook/font-awesome/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/font-awesome/fonts/fontawesome-webfonte0a5.svg" afterPath="$PROJECT_DIR$/target/CarBook/font-awesome/fonts/fontawesome-webfonte0a5.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/js/app/booking.js" afterPath="$PROJECT_DIR$/target/CarBook/js/app/booking.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/js/app/carPrice.js" afterPath="$PROJECT_DIR$/target/CarBook/js/app/carPrice.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/js/app/userProfile.js" afterPath="$PROJECT_DIR$/target/CarBook/js/app/userProfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/js/app/vehicle.js" afterPath="$PROJECT_DIR$/target/CarBook/js/app/vehicle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CarBook/js/app/vehiclelist.js" afterPath="$PROJECT_DIR$/target/CarBook/js/app/vehiclelist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="CarBook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -415,8 +35,8 @@
       <file leaf-file-name="Bookings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/car/bookings/model/Bookings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
+            <state relative-caret-position="90">
+              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding>
                 <element signature="e#720#721#0" expanded="true" />
                 <element signature="e#745#746#0" expanded="true" />
@@ -670,6 +290,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -690,9 +313,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -702,7 +322,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CarBook.iml" />
@@ -1368,6 +988,9 @@
       <workItem from="1474721580334" duration="598000" />
       <workItem from="1474865564232" duration="86000" />
       <workItem from="1474878430759" duration="1065000" />
+      <workItem from="1475050703309" duration="1562000" />
+      <workItem from="1475053283762" duration="13000" />
+      <workItem from="1475053569025" duration="1359000" />
     </task>
     <servers />
   </component>
@@ -1377,7 +1000,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="729174000" />
+    <option name="totallyTimeSpent" value="732108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1393,7 +1016,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2143951" sideWeight="0.17220077" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2128637" sideWeight="0.17220077" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24042879" sideWeight="0.8772201" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1406,12 +1029,11 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.49420848" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25114855" sideWeight="0.3992278" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.4972973" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6784074" sideWeight="0.4972973" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2143951" sideWeight="0.8277992" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21374045" sideWeight="0.8277992" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.4972973" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19604863" sideWeight="0.11931818" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.196139" sideWeight="0.87310606" order="1" side_tool="false" content_ui="combo" />
@@ -1422,6 +1044,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25114855" sideWeight="0.3992278" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.48803088" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1813,8 +1436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/car/bookings/model/Bookings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
+        <state relative-caret-position="90">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
             <element signature="e#720#721#0" expanded="true" />
             <element signature="e#745#746#0" expanded="true" />
@@ -1984,12 +1607,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>CarBook</last-edited>
+          <last-edited>JPA|CarBook</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
