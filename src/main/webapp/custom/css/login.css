@@ -140,5 +140,11 @@
     height: 1300px;
     overflow-y:scroll;
 }
+.chat-room-head1 {
+    background: #f4b925;
+    color: #FFF;
+    min-height: 70px;
+    padding: 15px;
+}
 
 

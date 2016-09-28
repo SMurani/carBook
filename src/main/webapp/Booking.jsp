@@ -728,6 +728,7 @@
 
 <script src="js/app/user.js"></script>
 <script src="js/app/booking.js"></script>
+<script type="text/javascript" src="js/angular.min.js"></script>
 
 <script src="js/alertifyjs/alertify.min.js"></script>
 <script src="js/alertifyjs/alertify.js"></script>
@@ -755,7 +756,7 @@
 
 <script src="24-rental-car/js/jquery.flexslider.js"></script>
 <script src="24-rental-car/js/jquery.parallax.js"></script>
-<script src="dashgum/assets/js/jjquery-1.8.3.min.js"></script>
+<script src="dashgum/assets/js/jquery-1.8.3.min.js"></script>
 
 <%--<script src="24-rental-car/js/jquery-1.10.2.min.js"></script>--%>
 

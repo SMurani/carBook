@@ -44,6 +44,9 @@
         <link href="dashgum/assets/css/style-responsive.css" rel="stylesheet">
 
 
+        <link rel="stylesheet" href="js/animate.css">
+
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -203,26 +206,23 @@
 
 
                 <div class="container ">
-                    <div class="inside col-lg-12">
-                       <%-- <h2>Login Page</h2>--%>
+                    <div>
+                        <h2>Please Log in to Place your Book</h2>
+
+                        </div>
                         <div class="">
-                            <div class="col-sm-4">
-
-
-                            </div>
-                            <div class=" col-sm-4">
-
+                            <div id="ajax-cost" class="col-sm-8 pull-left">
 
                             </div>
                             <div class="pull-right col-sm-4">
 
                                 <div id="">
-                                    <div class="">
+                                    <div class="chat-room mt">
 
 
 
-                                        <form class="form-login"  id="login-form" action="${pageContext.request.contextPath}/RentalCarsLogin" method="post" role="form" style="display: block;">
-                                            <h2 class="form-login-heading">sign in now</h2>
+                                        <form class="form-login animated bounceInLeft"  id="login-form" action="${pageContext.request.contextPath}/RentalCarsLogin" method="post" role="form" style="display: block;">
+                                            <h2 class="form-login-heading">Log in to place your order</h2>
                                             <div class="login-wrap">
 
                                                 <input type="text" class="form-control" name="username" id="username" tabindex="1"  placeholder="Username" autofocus value="" required="">
@@ -384,6 +384,7 @@
 </div>
 
 <!-----------------Table-------->
+<script src="dashgum/assets/js/jquery-1.8.3.min.js"></script>
 
 <script type="text/javascript" language="javascript" src="dashgum/assets/js/advanced-datatable/media/js/jquery.js"></script>
 <script src="dashgum/assets/js/bootstrap.min.js"></script>
@@ -403,6 +404,7 @@
 
 
 <script src="js/app/user.js"></script>
+<script src="js/app/summary.js"></script>
 
 
 <script src="js/alertifyjs/alertify.min.js"></script>
@@ -431,7 +433,7 @@
 
 <script src="24-rental-car/js/jquery.flexslider.js"></script>
 <script src="24-rental-car/js/jquery.parallax.js"></script>
-<script src="dashgum/assets/js/jjquery-1.8.3.min.js"></script>
+
 
 <%--<script src="24-rental-car/js/jquery-1.10.2.min.js"></script>--%>
 

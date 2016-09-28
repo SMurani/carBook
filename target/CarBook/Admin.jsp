@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="angularTable">
 
 <head>
     <meta charset="utf-8">
@@ -239,6 +239,7 @@
                                         <li class="list-group-item"> <span class="badge">2</span> <a href="#" onclick="contactus.list()"><i class="fa fa-inbox"></i> View Site Messages</a></li>
                                         <li class="list-group-item"> <a href="#" onclick="profile.listProfileDashboard()"><i class="fa fa-user"></i> My Profile</a></li>
                                         <li class="list-group-item"> <a href="#" onclick="user.listLoggedIn()"><i class="fa fa-cog"></i> Account Settings</a></li>
+                                        <li class="list-group-item"> <a href="#" onclick="car.loadTable()"><i class="fa fa-cog"></i> Vehicle Data</a></li>
                                         <li class="list-group-item"> <a href="index.jsp"><i class="fa fa-sign-out"></i> Log Out</a></li>
                                     </ul>
                                 </div>
@@ -332,6 +333,10 @@
 <%--<script src="js/app/Charts.js"></script>--%>
 <script src="js/app/userProfile.js"></script>
 
+<!--Angular-->
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/app/angular/dirPagination.js"></script>
+<script src="js/app/angular/app.js"></script>
 
 
 

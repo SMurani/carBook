@@ -12,18 +12,15 @@ var price={
                 if (ajax.status == 200) {
                     var resp = ajax.responseText;
                     document.getElementById('vehicle-gallery').innerHTML = resp;
+                    console.log(resp);
                     var jsonRecords = JSON.parse(resp);
-                    for (var i in jsonRecords) {
-                        var id = jsonRecords[i].id;
-                       // (jsonRecords[i].category);
+                    console.log(jsonRecords);
 
-
-                    }
 
                     var view = '<div class="price-table">';
 
                     for (var i in jsonRecords) {
-
+                       var orderId = +jsonRecords[i].id+"-order";
 
                         var uploadUrl = 'uploads/';
                         var id = jsonRecords[i].id;
@@ -45,7 +42,7 @@ var price={
                         view += "<div class=\"price-outer\">"
                         view += " <div class=\"price\"> "+ jsonRecords[i].price +" Ksh &nbsp;&nbsp; <span>per / day</span></div>"
                         view += " <p>Unlimited Free Miles Included</p>"
-                        view += " <a href=\"#\" class=\"btn btn-default\">Order now</a> </div>"
+                        view += " <a href=\"#\" class=\"btn btn-default\" id ="+orderId+">Order now</a> </div>"
                         view += "</div>"
                         view += "</div>"
 
@@ -57,6 +54,18 @@ var price={
 
 
                     document.getElementById('vehicle-gallery').innerHTML = view;
+                    if(document.getElementById('vehicle-gallery').innerHTML = view){
+                       var object = new Object(jsonRecords);
+                        object.forEach(function (el) {
+                          var id = el.id+"-order";
+                            document.getElementById(id).addEventListener("click", function(){
+                              sessionStorage.setItem("vehicleId", el.id);
+                                price.booking();
+                            })
+                        })
+
+
+                    }
                 }
             }
 
@@ -440,6 +449,9 @@ var price={
 
 
     },
+    booking:function () {
+        window.location="Booking.jsp"
+    }
 
 }
 

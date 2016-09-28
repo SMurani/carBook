@@ -64,16 +64,15 @@ var vehicle={
                     var resp = ajax.responseText;
                     document.getElementById('vehicle-gallery').innerHTML = resp;
                     var jsonRecords = JSON.parse(resp);
-                    for (var i in jsonRecords) {
-                        var id = jsonRecords[i].id;
-
-
-                    }
 
                     var view = '<div class="gallery">';
 
                     for (var i in jsonRecords) {
+                        var VorderId = +jsonRecords[i].id+"-order";
 
+
+                       // sessionStorage.setItem("vehicleId",jsonRecords[i].id);
+                        //var sessData=sessionStorage.setItem("vehicleId",jsonRecords[i].id);
 
                         var uploadUrl = 'uploads/';
                         var id = jsonRecords[i].id;
@@ -110,7 +109,7 @@ var vehicle={
                     +'<li><strong>Early Booking:</strong> Allows you to reserve your vehicle and pay at the counter upon collection.</li>'
                     +'<li>The vehicles shown are real. Expect to find the Vehicle you Book at the Booking Station with All the features Mentioned</li>'
                         +'</ul>'
-                        +'<a href="#" class="btn btn-default" onclick="vehicle.booking()">Book Car</a> </div>'
+                        +'<a href="#" class="btn btn-default"  id ='+VorderId+'>Book Car</a> </div>'
                         +'</div>'
                         +'</div>'
                     +' </div>';
@@ -122,6 +121,18 @@ var vehicle={
 
 
                     document.getElementById('vehicle-gallery').innerHTML = view;
+                    if(document.getElementById('vehicle-gallery').innerHTML = view){
+                        var object = new Object(jsonRecords);
+                        object.forEach(function (el) {
+                            var id = el.id+"-order";
+                            document.getElementById(id).addEventListener("click", function(){
+                                sessionStorage.setItem("vehicleId", el.id);
+                                vehicle.booking();
+                            })
+                        })
+
+
+                    }
                 }
             }
 
@@ -558,6 +569,7 @@ var vehicle={
     booking:function () {
         window.location="Booking.jsp"
     }
+
 }
 function listRoutes(){
     document.getElementById('ajax-content').innerHTML = 'We will load routes here!';

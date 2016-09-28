@@ -650,10 +650,10 @@ function listRoutes(){
 }
 
 (function init(){
-    profile.listProfileDashboard();
+    //profile.listProfileDashboard();
 })();
 
 (function init(){
-    profile.profilePersonalInformation();
+    //profile.profilePersonalInformation();
 })();
 

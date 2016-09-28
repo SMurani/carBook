@@ -144,7 +144,7 @@ var booking={
 
 
     },
-    loadBookedCar:function (id) {
+    loadBookedCar:function () {
 
         var ajax = new XMLHttpRequest();
         var me=this;
@@ -225,7 +225,7 @@ var booking={
 
         }
 
-        ajax.open("GET", "./vehicle/load?id="+id, true);
+        ajax.open("GET", "./vehicle/load?id="+sessionStorage.getItem("vehicleId"), true);
         ajax.send();
     },
     listAssessories: function(){
@@ -238,75 +238,6 @@ var booking={
                     var response = ajax.responseText;
                     document.getElementById('ajax-extras').innerHTML = response;
                     var jsonRecord = JSON.parse(response);
-
-
-                    /*var data = "<div class=\"content-panel\">";
-                     data+=" <div class=\"adv-table\">";
-                     data+="<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"display table table-bordered\" id=\"hidden-table-info\">";
-                     data+='<div>'
-                     +'<ol class="breadcrumb">'
-                     +'<li><a href="Admin.jsp">Home</a></li>'
-                     +'<li class="active"><a href="#" onclick="extras.list()">Vehicle Accessories</a></li>'
-                     +'</ol>'
-                     +'</div>'
-                     data+="<h3 class='text-center danger'>";
-                     data+="List of Vehicle  Accessories "
-                     data+="</h3>";
-                     data+="<thead>";
-                     data+="<tr>";
-                     data+="<th>#</th>";
-                     data+="<th>Owner</th>";
-                     data+="<th>Name</th>";
-                     data+="<th>Description</th>";
-                     data+="<th>Quantity</th>";
-                     data+="<th>Price</th>";
-                     data+="<th>Date Posted</th>";
-                     data+="<th>Photo</th>";
-                     data+="<th class='text-danger'>Actions</th>";
-                     data+="</tr>";
-                     data+="</thead>";
-                     data+="<tbody>";
-                     data+="<tr class='text-right'>";
-                     data+="<button class=\"btn-success btn-sm pull-right \"  type=\"submit\" onclick=\"extras.add()\"><span class=\"fa fa-plus\"></span>Add</button>";
-                     data+="</tr>";
-                     data+="<tr>";
-
-                     for (var i in jsonRecord){
-
-
-                     var uploadUrl='uploads/VehicleExtras/';
-                     var id = jsonRecord[i].id;
-                     console.log(id);
-                     data+="<tr class=\"gradeA\">";
-                     data+="<td></td>"
-                     data+="<td>"+jsonRecord[i].owner+"</td>";
-                     data+="<td>"+jsonRecord[i].name+"</td>";
-                     data+="<td>"+jsonRecord[i].description+"</td>";
-                     data+="<td>"+jsonRecord[i].quantity+"</td>";
-                     data+="<td>"+jsonRecord[i].price+"</td>";
-                     data+="<td>"+jsonRecord[i].datePosted+"</td>";
-                     data+="<td> <img src="+uploadUrl + jsonRecord[i].photo+  "  width=\"60px\" ></td>";
-
-
-                     data+="<td><a class=\"btn btn-sm\" onclick=\"extras.viewRecord(" +jsonRecord[i].id+  ")" +
-                     "\"><i class=\"fa fa-eye fa-1x\" aria-hidden=\"true\"></i></a>||" +
-                     "<a class=\"btn btn-sm\" onclick=\"extras.loadForm("+jsonRecord[i].id+")\"><i class=\"fa fa-pencil fa-1x\" aria-hidden=\"true\"></i></a>" +
-                     "||<a class=\"btn btn-sm\" onclick=\"extras.remove(" +jsonRecord[i].id+  ")\"><i class=\"fa fa-trash-o fa-1x\" aria-hidden=\"true\"></i></a>" +
-                     "</td>";
-
-
-
-
-                     }
-
-                     data+="</tr>";
-
-                     }
-
-                     data+='</tbody>'
-                     data+='</table>'
-                     data+=' </div>'
-                     data+=' </div>';*/
 
                    var data='<div id=content class=sidebar-middle>'
 
@@ -412,21 +343,37 @@ var booking={
     },
 
     vehicleDetails:function () {
+        var ajax = new XMLHttpRequest();
+        var me=this;
+        ajax.onreadystatechange = function() {
+            if (ajax.readyState == 4) {
+                if (ajax.status == 200) {
+                    var response = ajax.responseText;
+                    document.getElementById('ajax-booking').innerHTML = response;
+
+                    var jsonRecord = JSON.parse(response);
+
+
+                    var uploadUrl = 'uploads/';
+                    console.log(jsonRecord.id);
 
                     var data='<div id=primary> <aside id=secondary class=sidebar-left>'
 
-                        +'<div class=widget> <h3 class=widget-title> <img src=images/order_info.png alt /> Order Info </h3> <h4> Car <a href=04-choose-car.html title>Edit</a> </h4>'
+                        +'<div class=widget> <h3 class=widget-title> <i class="fa fa-cogs fa-1x" aria-hidden="true"></i> Order Info </h3> <h4> '+jsonRecord.model+' <a href="vehicle.jsp" title>Edit</a> </h4>'
 
                         +'<div class="widget-content main-block product-widget-mini">'
 
-                        +'<div class=product-img> <img src=images/product-mini.png alt />'
+                        +'<div class=" img-circle"> <img src='+uploadUrl+jsonRecord.photo+' alt />'
                         +'</div>'
+
+                        /*+'<div class="product-img"> <img class="img-responsive" style="height: 150px; width: 150px" src="'+uploadUrl+jsonRecord.photo+'" alt />'
+                        +'</div>'*/
 
                         +'<div class=product-info>'
 
                         +'<div class=entry-format>'
 
-                        +'<div>Ford Escape'
+                        +'<div>'+jsonRecord.model+''
                         +'</div>'
 
                         +' <span>Economy'
@@ -435,15 +382,15 @@ var booking={
 
                         +'<div class=features>'
 
-                        +' <p><span class="fa fa-user-times"></span><img  src=images/passenger-icon.png alt /> 5 passengers</p>'
+                        +' <p><span class="fa fa-user-times"></span><img  src=images/passenger-icon.png alt /> '+jsonRecord.seats+' Passengers</p>'
 
                         +'<p><span class="fa fa-suitcase"></span><img src=images/suitcase-icon.png alt /> 3 large suitcases, 2 small suitcase</p>'
 
-                        +'<p><span class="fa fa-cog"></span><img  src=images/transmission-icon.png alt /> automatic transmission</p>'
+                        +'<p><span class="fa fa-cog"></span><img  src=images/transmission-icon.png alt /> '+jsonRecord.gearType+' Transmission</p>'
 
-                        +'<p><span class="fa fa-star-half-o"></span><img  src=images/air-icon.png alt /> air conditioning</p>'
+                        +'<p><span class="fa fa-star-half-o"></span><img  src=images/air-icon.png alt />Air conditioning '+jsonRecord.hillstart+' </p>'
 
-                        +' <p><span class="fa fa-automobile"></span><img  src=images/km_l-icon.png alt /> 9 km/l</p>'
+                        +' <p><span class="fa fa-automobile"></span><img  src=images/km_l-icon.png alt />'+jsonRecord.fuel+'</p>'
                         +'</div>'
 
                         +'<div class=details>'
@@ -453,31 +400,85 @@ var booking={
                             
                         +'<div id="demo123" class="collapse">'
                         +' <ul class=details-more>'
-                        +' <p><span class="fa fa-file-sound-o ">  6-speaker radio/CD system</p>'
-                        +'<p><span class="fa fa-suitcase ">  Escaro black fabric</p>'
-                        +'<p><span class="fa fa-cc-discover ">  Hybrid System display</p>'
-                        +'<p><span class="fa fa-history ">  Vehicle Stability Control</p>'
-                        +'<p><span class="fa fa-rocket ">  Hill-start Assist Control</p>'
+                        +' <p><span class="fa fa-file-sound-o ">  '+jsonRecord.speakers+'</p>'
+                        +'<p><span class="fa fa-suitcase "> Gear Transmission: '+jsonRecord.gearType+'</p>'
+                        +'<p><span class="fa fa-cc-discover ">  System display: '+jsonRecord.display+'</p>'
+                        +'<p><span class="fa fa-history ">  Vehicle Stability Control: '+jsonRecord.stability+'</p>'
+                        +'<p><span class="fa fa-rocket ">  Hill-start Assist Control: '+jsonRecord.hillstart+'</p>'
+                        +'<p><span class="fa fa-rocket "> Description: '+jsonRecord.comments+'</p>'
                         +'</ul>'
                         +' </div>'
 
                         +'</div>'
                         +'</div>'
-                        +'</div> <h4> Date &amp; Location <a href=01-home-v1.html title>Edit</a> </h4>'
 
-                        +' <div class="widget-content widget-info"> <h4>Pick Up time</h4>'
+                         +'</div> <h5> Date &amp; Location</h5>'
 
-                        +' <p>Wed, 06 Mar, 2013 at 10:00</p> <h4>Return time</h4>'
+                        +' <div class="widget-content widget-info"> <h4>Pick Up Location and Time</h4>'
 
-                        +'<p>Thu, 21 Mar, 2013 at 10:00</p> <h4>Pickup and Return Location</h4>'
+                    data+='<div ng-app="">'
+                        +' <form class="form-inline" style="padding-left:30px">'
+                        +' <div class="form-group">'
+                        +'<input type="text" class="form-control" ng-model="pickLocation" id="exampleInputEmail2" placeholder="location">'
+                        +' </div>'
+                        +' </form>'
 
-                        +' <p>New York City JFK Airport</p>'
+                        +'<div class="row" style="padding-left:40px">'
 
-                        +' <div class=subtotal_content>'
+                        +'<input type="text" class="form-control datetimepicker" id="returnDate" ng-model="pickDate">'
+                        +'<select name="select" class="select" ng-model="pickTime">'
+                        +'<option>10:00</option>'
+                        +' <option>12:00</option>'
+                        +' <option>14:00</option>'
+                        +'<option>16:00</option>'
+                        +'<option>18:00</option>'
+                        +'<option>20:00</option>'
+                        +'<option>22:00</option>'
+                        +'</select>'
+                        +'</div>'
+
+                        +' <div class="widget-content widget-info"> <h4>Return Location and Time</h4>'
+                            data+=' <form class="form-inline" style="padding-left:30px">'
+                            +' <div class="form-group">'
+                            +'<input type="text" class="form-control" id="exampleInputEmail2" placeholder="return location" ng-model="returnLocation">'
+                            +' </div>'
+                            +' </form>'
+
+                            +'<div class="row" style="padding-left:40px">'
+
+                            +'<input type="text" class="form-control datetimepicker" id="returnDate" ng-model="returnDate">'
+                            +'<select name="select" class="select" ng-model="returnTime">'
+                            +'<option>10:00</option>'
+                            +' <option>12:00</option>'
+                            +' <option>14:00</option>'
+                            +'<option>16:00</option>'
+                            +'<option>18:00</option>'
+                            +'<option>20:00</option>'
+                            +'<option>22:00</option>'
+                            +'</select>'
+                            +'</div>'
+                                +' </form>'
+                                +'</div>'
+
+                        +'<p>Summary Details</p>'
+                                +'<h6><b>Pickup location: </b></h6> <p>{{pickLocation}}</p>'
+                                +'<h6><b>Pickup Date: </b></h6> <p>{{pickDate}}</p>'
+                                +'<h6><b>Pickup Time: </b></h6> <p>{{pickTime}}</p>'
+                                +'<h6><b>Return location: </b></h6> <p>{{returnLocation}}</p>'
+                                +'<h6><b>Return Date: </b></h6> <p>{{returnDate}}</p>'
+                                +'<h6><b>Return Time: </b></h6> <p>{{returnTime}}</p>'
+                                +'<h6><b>Return Time: </b></h6> <p>{{returnTime}}</p>'
+
+
+
+
+
+
+                        data+=' <div class=subtotal_content>'
 
                         +'  <div class=subtotal> Subtotal:'
 
-                        +'<span class=price>$3568.00'
+                        +'<span class=price>Ksh '+jsonRecord.price+'.00'
                         +' </span>'
                         +'</div>'
                         +'</div>'
@@ -501,12 +502,19 @@ var booking={
                         +'<span class=price>$3897.99'
                         +' </span>'
                         +'</div>'
-                        +'</div> </aside>'
+                        +'</div> </aside>';
                     document.getElementById('ajax-booking').innerHTML = data;
 
 
 
+                }
+            }
 
+        }
+
+
+        ajax.open("GET", "./vehicle/load?id="+sessionStorage.getItem("vehicleId"), true);
+        ajax.send();
     },
 
     vehicleExtras:function () {
@@ -539,6 +547,7 @@ var booking={
 
                     for(var i in jsonRecord) {
                         var uploadUrl = 'uploads/VehicleExtras/';
+                        var ExtraId = +jsonRecord[i].id+"-order";
                         data+='<div class="post">'
 
                             +'<div class=main-block_container>'
@@ -584,7 +593,9 @@ var booking={
                     }
 
                     data+='<div class=next_page>'
-                    +'<input class="continue_button blue_button" type=submit value="Continue to checkout" />'
+                   // +'<input class="continue_button blue_button" type=submit value="Continue to checkout" onclick="booking.booking()" />'
+                        //+'<input class="" type=submit value="Continue to checkout" onclick="booking.booking()" />'
+                    data += " <a href=\"#\" class=\"btn btn-default\"  onclick='booking.booking()'>Order now</a> </div>"
                     +'</div>'
                     +'</form>'
                     +'</div>';
@@ -597,8 +608,11 @@ var booking={
         ajax.open("GET", "./vehicleExtras", true);
         ajax.send();
 
+    },
+    booking:function () {
+        window.location="ReviewBooking.jsp"
     }
-}
+};
 function listRoutes(){
     document.getElementById('ajax-extras').innerHTML = 'We will load routes here!';
 }

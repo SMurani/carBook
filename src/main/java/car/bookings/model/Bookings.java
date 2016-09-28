@@ -18,6 +18,7 @@ import java.util.Date;
 @Entity
 @Table(name = "booking")
 public class Bookings {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -90,5 +91,28 @@ public class Bookings {
 
     public void setCarMillag(String carMillag) {
         this.carMillag = carMillag;
+    }
+
+    public String getCarExtrasId() {
+        return carExtrasId;
+    }
+
+    public void setCarExtrasId(String carExtrasId) {
+        this.carExtrasId = carExtrasId;
+    }
+
+    public String getJson(){
+        StringBuilder sb=new StringBuilder();
+        sb.append("{")
+                .append("\"id\": \"").append(getId()).append("\",")
+                .append("\"pickuplocation\": \"").append(getPickuplocation()).append("\",")
+                .append("\"returnLocation\": \"").append(getReturnLocation()).append("\",")
+                .append("\"bookingDate\": \"").append(getBookingDate()).append("\",")
+                .append("\"returnDate\": \"").append(getReturnDate()).append("\",")
+                .append("\"carExtrasId\": \"").append(getCarExtrasId()).append("\",")
+                .append("\"vehicles\": \"").append(getVehicles().getPlateNumber()).append("\"");
+                sb.append("}");
+
+        return sb.toString();
     }
 }
