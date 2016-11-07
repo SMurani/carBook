@@ -219,7 +219,6 @@ var vehicle = {
 
                         var uploadUrl='uploads/';
                         var id = jsonRecords[i].id;
-                        console.log(id);
                         data+="<tr class=\"gradeA\">";
                         data+="<td></td>"
                         data+="<td>"+jsonRecords[i].owner+"</td>";
@@ -631,7 +630,7 @@ var vehicle = {
         ajax.open("GET", "./vehicle/load?id="+id, true);
         ajax.send();
 
-    },
+    }
 };
 
 

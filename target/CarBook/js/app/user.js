@@ -197,8 +197,6 @@ var user = {
                     var resp=ajax.responseText;
                     document.getElementById('ajax-content').innerHTML = resp;
                     var jsonRecords = JSON.parse(resp);
-                    console.log(resp);
-
                     var data = "<div class=\"content-panel\">";
                     data+='<div>'
                         +'<ol class="breadcrumb">'
@@ -233,7 +231,6 @@ var user = {
 
                     for (var i in jsonRecords){
                         var id = jsonRecords[i].id;
-                        console.log(id);
                         data+="<tr class=\"gradeA\">";
                         data+="<td></td>"
                         data+="<td>"+jsonRecords[i].registrationDate+"</td>";
@@ -523,9 +520,26 @@ var user = {
         ajax.open("GET", "./user/loggedDetails", true);
         ajax.send();
 
+    },
+    logout:function () {
+        var ajax = new XMLHttpRequest();
+        ajax.onreadystatechange = function() {
+
+            if (ajax.readyState == 4) {
+
+                if (ajax.status == 200) {
+                    var resp = ajax.responseText;
+                    window.location=resp;
+
+                }
+
+            }
+        }
+        ajax.open("GET", "./user/logout", true);
+        ajax.send();
     }
 
-}
+};
 
 
 

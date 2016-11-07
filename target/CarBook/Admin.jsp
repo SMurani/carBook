@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>RentalCar</title>
-    <link rel="shortcut icon" href="fav.png" type="image/png">
+    <link rel="shortcut icon" href="24-rental-car/fav.png" type="image/png">
     <!-- CSS preloader -->
     <link href="24-rental-car/css/loader.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
@@ -46,13 +46,17 @@
         }
     </style>
 
-<%--    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>--%>
+<!--Dashgum Css-->
+    
 
 </head>
 <body class="responsive">
+<%
+    if (session.getAttribute("user")==null)
+    {
+        response.sendRedirect("login.jsp");
+    }
+%>
 <div class="loader">
     <div class="inside">
         <div class="circle-outer"></div>
@@ -228,8 +232,8 @@
 
                             <div class="users-sidebar-wrapper" style="padding-top: 20px">
                                 <!-- SIDEBAR -->
-                                <div class="users-sidebar tbssticky">
-                                    <ul class="list-group">
+                                <%--<div class="nav-collapse users-sidebar tbssticky">
+                                    <ul class="list-group" id="nav-accordion1">
                                         <li class="list-group-item active"> <span class="badge">5</span> <a href="Admin.jsp"><i class="fa fa-home"></i> Dashboard</a></li>
                                         <li class="list-group-item"> <span class="badge">5</span> <a href="#" onclick="vehicle.list()"><i class="fa fa-folder-o"></i> Vehicles</a></li>
                                         <li class="list-group-item"> <span class="badge">5</span> <a href="#" onclick="extras.list()"><i class="fa fa-folder-o"></i> Vehicle Extras</a></li>
@@ -239,10 +243,129 @@
                                         <li class="list-group-item"> <span class="badge">2</span> <a href="#" onclick="contactus.list()"><i class="fa fa-inbox"></i> View Site Messages</a></li>
                                         <li class="list-group-item"> <a href="#" onclick="profile.listProfileDashboard()"><i class="fa fa-user"></i> My Profile</a></li>
                                         <li class="list-group-item"> <a href="#" onclick="user.listLoggedIn()"><i class="fa fa-cog"></i> Account Settings</a></li>
-                                        <li class="list-group-item"> <a href="#" onclick="car.loadTable()"><i class="fa fa-cog"></i> Vehicle Data</a></li>
-                                        <li class="list-group-item"> <a href="index.jsp"><i class="fa fa-sign-out"></i> Log Out</a></li>
+                                        <li class="list-group-item"> <a href="#"><i class="fa fa-inbox"></i> Emails</a></li>
+                                        <li class="list-group-item"> <a href="#" onclick="user.logout()"><i class="fa fa-sign-out"></i> Log Out</a></li>
                                     </ul>
-                                </div>
+                                </div>--%>
+                                    <!--sidebar start-->
+                                        <div class="nav-collapse users-sidebar tbssticky">
+                                            <!-- sidebar menu start-->
+                                            <ul class="list-group" id="nav-accordion" >
+                                                <li class="list-group-item active"> <span class="badge">5</span> <a href="Admin.jsp"><i class="fa fa-home"></i> Dashboard</a></li>
+                                                <li class="list-group-item"> <span class="badge">5</span> <a href="#" onclick="vehicle.list()"><i class="fa fa-folder-o"></i> Vehicles</a>
+                                                    <ul class="sub">
+                                                        <li><a  href="#">Add Vehicle</a></li>
+                                                        <li><a  href="#">Search Vehicle</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="list-group-item"> <span class="badge">5</span> <a href="#" onclick="extras.list()"><i class="fa fa-folder-o"></i> Vehicle Extras</a></li>
+                                                <li class="list-group-item"> <span class="badge">12</span> <a href="#" onclick="vehicle.loadCar()"><i class="fa fa-star-o"></i> Clients</a></li>
+                                                <li class="list-group-item"> <a href="#"><i class="fa fa-plus-square-o" onclick="vehicle.add()"></i> View Bookings</a></li>
+                                                <li class="list-group-item"> <span class="badge">2</span> <a href="#" onclick="user.list()"><i class="fa fa-edit"></i> View User Accounts</a></li>
+                                                <li class="list-group-item"> <span class="badge">2</span> <a href="#" onclick="contactus.list()"><i class="fa fa-inbox"></i> View Site Messages</a></li>
+                                                <li class="list-group-item"> <a href="#" onclick="profile.listProfileDashboard()"><i class="fa fa-user"></i> My Profile</a></li>
+                                                <li class="list-group-item"> <a href="#" onclick="user.listLoggedIn()"><i class="fa fa-cog"></i> Account Settings</a></li>
+                                                <li class="list-group-item">
+                                                    <a  href="#" onclick="email.emaildashboard()">
+                                                        <i class="fa fa-envelope"></i>
+                                                        <span>Mails </span>
+                                                        <span class="label label-theme pull-right mail-info">2</span>
+                                                    </a>
+                                                    <ul class="sub">
+                                                        <li><a  href="#" onclick="email.composeMail()">Compose mail</a></li>
+                                                        <li><a  href="#">Inbox</a></li>
+                                                        <li><a  href="#">Sent mail</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="list-group-item"> <a href="#" onclick="user.logout()"><i class="fa fa-sign-out"></i> Log Out</a></li>
+                                                <li class="list-group-item"> <a href="#"><i class="fa fa-lock"></i> Lock Screen</a></li>
+
+                                               <%-- <li class="list-group-item">
+                                                    <a href="javascript:;" >
+                                                        <i class="fa fa-cogs"></i>
+                                                        <span>Components</span>
+                                                    </a>
+                                                    <ul class="sub">
+                                                        <li><a  href="calendar.html">Calendar</a></li>
+                                                        <li><a  href="gallery.html">Gallery</a></li>
+                                                        <li><a  href="todo_list.html">Todo List</a></li>
+                                                        <li><a  href="dropzone.html">Dropzone File Upload</a></li>
+                                                        <li><a  href="inline_editor.html">Inline Editor</a></li>
+                                                        <li><a  href="file_upload.html">Multiple File Upload</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="javascript:;" >
+                                                        <i class="fa fa-book"></i>
+                                                        <span>Extra Pages</span>
+                                                    </a>
+                                                    <ul class="sub">
+                                                        <li><a  href="blank.html">Blank Page</a></li>
+                                                        <li><a  href="login.html">Login</a></li>
+                                                        <li><a  href="lock_screen.html">Lock Screen</a></li>
+                                                        <li><a  href="profile.html">Profile</a></li>
+                                                        <li><a  href="invoice.html">Invoice</a></li>
+                                                        <li><a  href="pricing_table.html">Pricing Table</a></li>
+                                                        <li><a  href="faq.html">FAQ</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="javascript:;" >
+                                                        <i class="fa fa-tasks"></i>
+                                                        <span>Forms</span>
+                                                    </a>
+                                                    <ul class="sub">
+                                                        <li><a  href="form_component.html">Form Components</a></li>
+                                                        <li><a  href="advanced_form_components.html">Advanced Components</a></li>
+                                                        <li><a  href="form_validation.html">Form Validation</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="javascript:;" >
+                                                        <i class="fa fa-th"></i>
+                                                        <span>Data Tables</span>
+                                                    </a>
+                                                    <ul class="sub">
+                                                        <li><a  href="basic_table.html">Basic Table</a></li>
+                                                        <li><a  href="responsive_table.html">Responsive Table</a></li>
+                                                        <li><a  href="advanced_table.html">Advanced Table</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a  href="inbox.html">
+                                                        <i class="fa fa-envelope"></i>
+                                                        <span>Mail </span>
+                                                        <span class="label label-theme pull-right mail-info">2</span>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="javascript:;" >
+                                                        <i class=" fa fa-bar-chart-o"></i>
+                                                        <span>Charts</span>
+                                                    </a>
+                                                    <ul class="sub">
+                                                        <li><a  href="morris.html">Morris</a></li>
+                                                        <li><a  href="chartjs.html">Chartjs</a></li>
+                                                        <li><a  href="flot_chart.html">Flot Charts</a></li>
+                                                        <li><a  href="xchart.html">xChart</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="javascript:;">
+                                                        <i class="fa fa-comments-o"></i>
+                                                        <span>Chat Room</span>
+                                                    </a>
+                                                    <ul class="sub">
+                                                        <li><a  href="lobby.html">Lobby</a></li>
+                                                        <li><a  href="chat_room.html"> Chat Room</a></li>
+                                                    </ul>
+                                                </li>
+--%>
+                                            </ul>
+                                            <!-- sidebar menu end-->
+                                        </div>
+                                    <!--sidebar end-->
+
                             </div>
 
 
@@ -337,6 +460,8 @@
 <script type="text/javascript" src="js/angular.min.js"></script>
 <script type="text/javascript" src="js/app/angular/dirPagination.js"></script>
 <script src="js/app/angular/app.js"></script>
+<script src="js/app/dashboard.js"></script>
+<script src="js/app/email.js"></script>
 
 
 
@@ -372,6 +497,27 @@
 <script src="24-rental-car/js/jquery.isotope.min.js"></script>
 <script src="24-rental-car/js/owl.carousel.js"></script>
 <script src="24-rental-car/js/rentalcar-custom.js"></script>
+
+
+
+
+
+<script src="dashgum/assets/js/jquery.js"></script>
+<script src="dashgum/assets/js/jquery-1.8.3.min.js"></script>
+<script src="dashgum/assets/js/bootstrap.min.js"></script>
+<script class="include" type="text/javascript" src="dashgum/assets/js/jquery.dcjqaccordion.2.7.js"></script>
+<script src="dashgum/assets/js/jquery.scrollTo.min.js"></script>
+<script src="dashgum/assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+<script src="dashgum/assets/js/common-scripts.js"></script>
+<script type="text/javascript" src="dashgum/assets/js/bootstrap-wysihtml5/wysihtml5-0.3.0.js"></script>
+<script type="text/javascript" src="dashgum/assets/js/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>
+<script type="text/javascript">
+    //wysihtml5 start
+
+    $('.wysihtml5').wysihtml5();
+
+    //wysihtml5 end
+</script>
 </body>
 
 </html>

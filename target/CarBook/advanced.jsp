@@ -1,207 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
 
-
-  
 <head>
-    <link href="dashgum/assets/js/advanced-datatable/media/css/demo_page.css" rel="stylesheet" />
-    <link href="dashgum/assets/js/advanced-datatable/media/css/demo_table.css" rel="stylesheet" />
-    <link rel="stylesheet" href="dashgum/assets/js/advanced-datatable/media/css/DT_bootstrap.css" />
+    <link href="./resource/css/bootstrap-responsive.css" rel="stylesheet">
 
-        
+    <script src="resource/js/jquery-1.10.2.min.js"></script>
 
-    <link href="dashgum/assets/css/style-responsive.css" rel="stylesheet">
-    
+    <!-- Le styles -->
+    <link href="./resource/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #f5f5f5;
+        }
+
+        .form-signin {
+            max-width: 300px;
+            padding: 19px 29px 29px;
+            margin: 0 auto 20px;
+            background-color: #777777;
+            border: 1px solid #e5e5e5;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+            -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+        }
+
+        .form-signin .form-signin-heading,.form-signin .checkbox {
+            margin-bottom: 10px;
+        }
+
+        .form-signin input[type="text"],.form-signin input[type="password"] {
+            font-size: 16px;
+            height: auto;
+            margin-bottom: 15px;
+            padding: 7px 9px;
+        }
+
+        #chatroom {
+            font-size: 16px;
+            height: 40px;
+            line-height: 40px;
+            width: 300px;
+        }
+
+        .received {
+            width: 160px;
+            font-size: 10px;
+        }
+    </style>
+
+    <script src="./resource/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+          href="./resource/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          href="./resource/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+          href="./resource/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+          href="./resource/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="./resource/ico/favicon.png">
+    <script>
+        var wsocket;
+        var serviceLocation = "ws://localhost:8088/CarBook/chat/";
+        var $nickName;
+        var $message;
+        var $chatWindow;
+        var room = '';
+
+        function onMessageReceived(evt) {
+            var msg = JSON.parse(evt.data); // native API
+            var $messageLine = $('<tr><td class="received">' + msg.received
+                    + '</td><td class="user label label-info">' + msg.sender
+                    + '</td><td class="message badge">' + msg.message
+                    + '</td></tr>');
+            $chatWindow.append($messageLine);
+        }
+        function sendMessage() {
+            var msg = '{"message":"' + $message.val() + '", "sender":"'
+                    + $nickName.val() + '", "received":""}';
+            wsocket.send(msg);
+            $message.val('').focus();
+        }
+
+        function connectToChatserver() {
+            room = $('#chatroom option:selected').val();
+            wsocket = new WebSocket(serviceLocation + room);
+            wsocket.onmessage = onMessageReceived;
+        }
+
+        function leaveRoom() {
+            wsocket.close();
+            $chatWindow.empty();
+            $('.chat-wrapper').hide();
+            $('.chat-signin').show();
+            $nickName.focus();
+        }
+
+        $(document).ready(function() {
+            $nickName = $('#nickname');
+            $message = $('#message');
+            $chatWindow = $('#response');
+            $('.chat-wrapper').hide();
+            $nickName.focus();
+
+            $('#enterRoom').click(function(evt) {
+                evt.preventDefault();
+                connectToChatserver();
+                $('.chat-wrapper h2').text('Chat # '+$nickName.val() + "@" + room);
+                $('.chat-signin').hide();
+                $('.chat-wrapper').show();
+                $message.focus();
+            });
+            $('#do-chat').submit(function(evt) {
+                evt.preventDefault();
+                sendMessage()
+            });
+
+            $('#leave-room').click(function(){
+                leaveRoom();
+            });
+        });
+    </script>
+    <style>
+        /*=Chat=*/
+        .conversation-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .conversation-list li {
+            margin-bottom:24px;
+        }
+        .conversation-list .chat-avatar {
+            width:40px;
+            display:inline-block;
+            text-align:center;
+            float:left;
+        }
+        .conversation-list .chat-avatar i {
+            font-size:12px;
+            font-style:normal;
+        }
+        .conversation-list .ctext-wrap i {
+            display:block;
+            font-style:normal;
+            font-weight:bold;
+            position:relative;
+            font-size:12px;
+            color:#2cb9b3;
+        }
+        .conversation-list .conversation-text {
+            display:inline-block;
+            font-size:12px;
+            float:left;
+            margin-left:12px;
+            width:70%;
+        }
+        .conversation-list .ctext-wrap {
+            padding:10px;
+            background:#d5f2ef;
+            -webkit-border-radius:3px;
+            -moz-border-radius:3px;
+            border-radius:3px;
+            position:relative;
+            display:inline-block;
+        }
+        .conversation-list .ctext-wrap p {
+            margin:0px;
+            padding-top:3px;
+        }
+        .conversation-list .ctext-wrap:after {
+            right:100%;
+            top:20%;
+            border:solid transparent;
+            content:" ";
+            height:0;
+            width:0;
+            position:absolute;
+            pointer-events:none;
+            border-color:rgba(213,242,239,0);
+            border-right-color:#d5f2ef;
+            border-width:5px;
+            margin-top:-5px;
+        }
+        .conversation-list .odd .chat-avatar {
+            float:right !important;
+        }
+        .conversation-list .odd .conversation-text {
+            width:70% !important;
+            margin-right:12px;
+            text-align: right;
+            float:right !important;
+        }
+        .conversation-list .odd .ctext-wrap {
+            background:#eeeef2 !important;
+        }
+        .conversation-list .odd .ctext-wrap i {
+            color:#acacac;
+        }
+        .conversation-list .odd .ctext-wrap:after {
+            left:100% !important;
+            top:20% !important;
+            border-color:rgba(238,238,242,0)!important;
+            border-left-color:#eeeef2!important;
+        }
+        .chat-send {
+            padding-left:0px;
+        }
+        .chat-send button {
+            width: 100%;
+        }
+
+
+        .chat-form {
+            margin-top:25px;
+            clear:both;
+        }
+        .chat-form .input-cont {
+            margin-bottom:10px;
+        }
+        .chat-form .input-cont input {
+            margin-bottom:0px;
+        }
+        .chat-form .input-cont input {
+            border:1px solid #d3d3d3 !important;
+            margin-top:0;
+            min-height:45px;
+        }
+        .chat-form .input-cont input {
+            background-color:#fff !important;
+        }
+        .chat-features a {
+            margin-left:10px;
+        }
+        .chat-features a i {
+            color:#d0d0d0;
+        }
+    </style>
+
+</head>
+<body class="responsive">
+
+<div class="container chat-signin">
+    <form class="form-signin">
+        <h2 class="form-signin-heading">Nigas Log in to chat</h2>
+        <label for="nickname">Nickname</label> <input type="text"
+                                                      class="input-block-level" placeholder="Nickname" id="nickname">
+        <div class="btn-group">
+            <label for="chatroom">Chatroom</label> <select size="1"
+                                                           id="chatroom">
+            <option>Mfuon</option>
+            <option>Brian</option>
+            <option>Codi</option>
+            <option>Sammy</option>
+        </select>
+        </div>
+        <button class="btn btn-large btn-primary" type="submit"
+                id="enterRoom">Sign in</button>
+    </form>
+</div>
 
 
 
-  </head>
 
-  <body>
-
-  <section id="container" >
-
-      <section id="">
-          <section class="col-lg-10 text-center">
-
-				<div class="row mb ml">
-				
-				   <!-- page start-->
-                  <div class="content-panel">
-                        <div class="adv-table">
-                            <table cellpadding="0" cellspacing="0" border="0" class="display table table-bordered" id="hidden-table-info">
-                                <thead>
-                                <tr>
-                                    <th>Rendering engine</th>
-                                    <th>Browser</th>
-                                    <th class="hidden-phone">Platform(s)</th>
-                                    <th class="hidden-phone">Engine version</th>
-                                    <th class="hidden-phone">CSS grade</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr class="gradeX">
-                                    <td>Trident</td>
-                                    <td>Internet
-                                        Explorer 4.0</td>
-                                    <td class="hidden-phone">Win 95+</td>
-                                    <td class="center hidden-phone">4</td>
-                                    <td class="center hidden-phone">X</td>
-                                </tr>
-                                <tr class="gradeC">
-                                    <td>Trident</td>
-                                    <td>Internet
-                                        Explorer 5.0</td>
-                                    <td class="hidden-phone">Win 95+</td>
-                                    <td class="center hidden-phone">5</td>
-                                    <td class="center hidden-phone">C</td>
-                                </tr>
-                                <tr class="gradeA">
-                                    <td>Trident</td>
-                                    <td>Internet
-                                        Explorer 5.5</td>
-                                    <td class="hidden-phone">Win 95+</td>
-                                    <td class="center hidden-phone">5.5</td>
-                                    <td class="center hidden-phone">A</td>
-                                </tr>
-                                <tr class="gradeA">
-                                    <td>Trident</td>
-                                    <td>Internet
-                                        Explorer 6</td>
-                                    <td class="hidden-phone">Win 98+</td>
-                                    <td class="center hidden-phone">6</td>
-                                    <td class="center hidden-phone">A</td>
-                                </tr>
-                                <tr class="gradeA">
-                                    <td>Trident</td>
-                                    <td>Internet Explorer 7</td>
-                                    <td class="hidden-phone">Win XP SP2+</td>
-                                    <td class="center hidden-phone">7</td>
-                                    <td class="center hidden-phone">A</td>
-                                </tr>
-                                <tr class="gradeA">
-                                    <td>Trident</td>
-                                    <td>AOL browser (AOL desktop)</td>
-                                    <td class="hidden-phone">Win XP</td>
-                                    <td class="center hidden-phone">6</td>
-                                    <td class="center hidden-phone">A</td>
-                                </tr>
-                                <tr class="gradeA">
-                                    <td>Gecko</td>
-                                    <td>Firefox 1.0</td>
-                                    <td class="hidden-phone">Win 98+ / OSX.2+</td>
-                                    <td class="center hidden-phone">1.7</td>
-                                    <td class="center hidden-phone">A</td>
-                                </tr>
-                                <tr class="gradeA">
-                                    <td>Gecko</td>
-                                    <td>Firefox 1.5</td>
-                                    <td class="hidden-phone">Win 98+ / OSX.2+</td>
-                                    <td class="center hidden-phone">1.8</td>
-                                    <td class="center hidden-phone">A</td>
-                                </tr>
-                                <tr class="gradeA">
-                                    <td>Gecko</td>
-                                    <td>Firefox 2.0</td>
-                                    <td class="hidden-phone">Win 98+ / OSX.2+</td>
-                                    <td class="center hidden-phone">1.8</td>
-                                    <td class="center hidden-phone">A</td>
-                                </tr>
-
-
-
-                                </tbody>
-                            </table>
+<!--chat start-->
+<%--<section class="panel col-sm-3 pull-right">
+    <header class="panel-heading">
+        Chat <span class="tools pull-right">
+            <a href="javascript:;" class="fa fa-chevron-down"></a>
+            <a href="javascript:;" class="fa fa-cog"></a>
+            <a href="javascript:;" class="fa fa-times"></a>
+            </span>
+    </header>--%>
+   <%-- <div class="panel-body">--%>
+        <%--<div class="chat-conversation">
+            <ul class="conversation-list">
+                <li class="clearfix">
+                    <div class="chat-avatar">
+                        <img src="images/chat-user-thumb.png" alt="male">
+                        <i>10:00</i>
+                    </div>
+                    <div class="conversation-text">
+                        <div class="ctext-wrap">
+                            <i>John Carry</i>
+                            <p>
+                                Hello!
+                            </p>
                         </div>
-                  </div>
-              <!-- page end-->
+                    </div>
+                </li>
+                <li class="clearfix odd">
+                    <div class="chat-avatar">
+                        <img src="images/chat-user-thumb-f.png" alt="female">
+                        <i>10:00</i>
+                    </div>
+                    <div class="conversation-text">
+                        <div class="ctext-wrap">
+                            <i>Lisa Peterson</i>
+                            <p>
+                                Hi, How are you? What about our next meeting?
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="chat-avatar">
+                        <img src="images/chat-user-thumb.png" alt="male">
+                        <i>10:00</i>
+                    </div>
+                    <div class="conversation-text">
+                        <div class="ctext-wrap">
+                            <i>John Carry</i>
+                            <p>
+                                Yeah everything is fine
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="clearfix odd">
+                    <div class="chat-avatar">
+                        <img src="images/chat-user-thumb-f.png" alt="female">
+                        <i>10:00</i>
+                    </div>
+                    <div class="conversation-text">
+                        <div class="ctext-wrap">
+                            <i>Lisa Peterson</i>
+                            <p>
+                                Wow that's great
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="row">
+                <div class="col-xs-9">
+                    <input type="text" class="form-control chat-input" placeholder="Enter your text">
+                </div>
+                <div class="col-xs-3 chat-send">
+                    <button type="submit" class="btn btn-default">Send</button>
+                </div>
+            </div>--%>
+ <%--           <form id="do-chat col-sm-3">
+                <h2 class="alert alert-success"></h2>
+                <table id="response" class="table table-bordered"></table>
+                <fieldset>
+                    <legend>Enter your message..</legend>
+                    <div class="controls">
+                        <input type="text" class="input-block-level" placeholder="Your message..." id="message" style="height:60px"/>
+                        <input type="submit" class="btn btn-large btn-block btn-primary"
+                               value="Send message" />
+                        <button class="btn btn-large btn-block" type="button" id="leave-room">Leave
+                            room</button>
+                    </div>
+                </fieldset>
+            </form>
+      &lt;%&ndash;  </div>
+    </div>&ndash;%&gt;
+&lt;%&ndash;</section>&ndash;%&gt;
+<!--chat end-->
 
-				
-              </div><!-- /row -->
 
-		</section><! --/wrapper -->
-      </section><!-- /MAIN CONTENT -->
-
-      <!--main content end-->
-
-  </section>
-
-	<script type="text/javascript" language="javascript" src="dashgum/assets/js/advanced-datatable/media/js/jquery.js"></script>
-    <script src="dashgum/assets/js/bootstrap.min.js"></script>
-    <script class="include" type="text/javascript" src="dashgum/assets/js/jquery.dcjqaccordion.2.7.js"></script>
-
-
-
-    <script type="text/javascript" language="javascript" src="dashgum/assets/js/advanced-datatable/media/js/jquery.dataTables.js"></script>
+</body>
+</html>--%>
 
 
 
 
-    <!--script for this page-->
-    
 
-  
-    <script type="text/javascript">
-      /* Formating function for row details */
-      function fnFormatDetails ( oTable, nTr )
-      {
-          var aData = oTable.fnGetData( nTr );
-          var sOut = '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
-          sOut += '<tr><td>Rendering engine:</td><td>'+aData[1]+' '+aData[4]+'</td></tr>';
-          sOut += '<tr><td>Link to source:</td><td>Could provide a link here</td></tr>';
-          sOut += '<tr><td>Extra info:</td><td>And any further details here (images etc)</td></tr>';
-          sOut += '</table>';
 
-          return sOut;
-      }
 
-      $(document).ready(function() {
-          /*
-           * Insert a 'details' column to the table
-           */
-          var nCloneTh = document.createElement( 'th' );
-          var nCloneTd = document.createElement( 'td' );
-          nCloneTd.innerHTML = '<img src="dashgum/assets/js/advanced-datatable/examples/examples_support/details_open.png">';
-          nCloneTd.className = "center";
 
-          $('#hidden-table-info thead tr').each( function () {
-              this.insertBefore( nCloneTh, this.childNodes[0] );
-          } );
 
-          $('#hidden-table-info tbody tr').each( function () {
-              this.insertBefore(  nCloneTd.cloneNode( true ), this.childNodes[0] );
-          } );
 
-          /*
-           * Initialse DataTables, with no sorting on the 'details' column
-           */
-          var oTable = $('#hidden-table-info').dataTable( {
-              "aoColumnDefs": [
-                  { "bSortable": false, "aTargets": [ 0 ] }
-              ],
-              "aaSorting": [[1, 'asc']]
-          });
 
-          /* Add event listener for opening and closing details
-           * Note that the indicator for showing which row is open is not controlled by DataTables,
-           * rather it is done here
-           */
-          $('#hidden-table-info tbody td img').live('click', function () {
-              var nTr = $(this).parents('tr')[0];
-              if ( oTable.fnIsOpen(nTr) )
-              {
-                  /* This row is already open - close it */
-                  this.src = "dashgum/assets/js/advanced-datatable/examples/examples_support/details_open.png";
-                  oTable.fnClose( nTr );
-              }
-              else
-              {
-                  /* Open this row */
-                  this.src = "dashgum/assets/js/advanced-datatable/examples/examples_support/details_close.png";
-                  oTable.fnOpen( nTr, fnFormatDetails(oTable, nTr), 'details' );
-              }
-          } );
-      } );
-  </script>
 
-  </body>
 
+
+
+
+
+
+<!-- /container -->
+
+<div class="<%--container chat-wrapper--%> panel col-sm-3 pull-right">
+    <form id="do-chat">
+        <h2 class="alert alert-success"></h2>
+        <table id="response" class="table table-bordered"></table>
+        <fieldset>
+            <legend>Enter your message..</legend>
+            <div class="controls">
+                <input type="text" class="input-block-level" placeholder="Your message..." id="message" style="height:60px"/>
+                <input type="submit" class="btn btn-large btn-block btn-primary"
+                       value="Send message" />
+                <button class="btn btn-large btn-block" type="button" id="leave-room">Leave
+                    room</button>
+            </div>
+        </fieldset>
+    </form>
+</div>
+</body>
 </html>

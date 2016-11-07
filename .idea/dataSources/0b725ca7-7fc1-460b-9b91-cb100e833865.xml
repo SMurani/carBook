@@ -23,264 +23,387 @@
     <table id="18" parent="1" name="contactUs"/>
     <table id="19" parent="1" name="booking"/>
     <table id="20" parent="1" name="vehicles_VehicleExtras"/>
-    <column id="21" parent="14" name="id">
+    <table id="21" parent="1" name="Conversations"/>
+    <table id="22" parent="1" name="chat"/>
+    <table id="23" parent="1" name="conversationsReply"/>
+    <column id="24" parent="14" name="id">
       <mandatory>1</mandatory>
       <data-type>bigint(20)|0</data-type>
     </column>
-    <column id="22" parent="14" name="datePosted">
+    <column id="25" parent="14" name="datePosted">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="23" parent="14" name="description">
+    <column id="26" parent="14" name="description">
       <data-type>text|0</data-type>
     </column>
-    <column id="24" parent="14" name="name">
+    <column id="27" parent="14" name="name">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="25" parent="14" name="owner">
+    <column id="28" parent="14" name="owner">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="26" parent="14" name="photo">
+    <column id="29" parent="14" name="photo">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="27" parent="14" name="price">
+    <column id="30" parent="14" name="price">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="28" parent="14" name="quantity">
+    <column id="31" parent="14" name="quantity">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <key id="29" parent="14" name="PRIMARY">
+    <key id="32" parent="14" name="PRIMARY">
       <columns>id</columns>
       <primary>1</primary>
     </key>
-    <column id="30" parent="15" name="next_val">
+    <column id="33" parent="15" name="next_val">
       <data-type>bigint(20)|0</data-type>
     </column>
-    <column id="31" parent="16" name="id">
+    <column id="34" parent="16" name="id">
       <mandatory>1</mandatory>
       <data-type>bigint(20)|0</data-type>
     </column>
-    <column id="32" parent="16" name="Country">
+    <column id="35" parent="16" name="Country">
       <data-type>varchar(255)|0</data-type>
       <default-expression>&apos;Not Set&apos;</default-expression>
     </column>
-    <column id="33" parent="16" name="DLDetails">
+    <column id="36" parent="16" name="DLDetails">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="34" parent="16" name="DLNumber">
+    <column id="37" parent="16" name="DLNumber">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="35" parent="16" name="IssuingAuthority">
+    <column id="38" parent="16" name="IssuingAuthority">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="36" parent="16" name="username">
+    <column id="39" parent="16" name="username">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="37" parent="16" name="firstName">
+    <column id="40" parent="16" name="firstName">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="38" parent="16" name="homeAddress">
+    <column id="41" parent="16" name="homeAddress">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="39" parent="16" name="idNumber">
+    <column id="42" parent="16" name="idNumber">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="40" parent="16" name="lastName">
+    <column id="43" parent="16" name="lastName">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="41" parent="16" name="password">
+    <column id="44" parent="16" name="password">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="42" parent="16" name="phoneNumber">
+    <column id="45" parent="16" name="phoneNumber">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="43" parent="16" name="town">
+    <column id="46" parent="16" name="town">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="44" parent="16" name="userType">
+    <column id="47" parent="16" name="userType">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="45" parent="16" name="email">
+    <column id="48" parent="16" name="email">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="46" parent="16" name="registrationDate">
+    <column id="49" parent="16" name="registrationDate">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="47" parent="16" name="gender">
+    <column id="50" parent="16" name="gender">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="48" parent="16" name="passwordUpdateDate">
+    <column id="51" parent="16" name="passwordUpdateDate">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="49" parent="16" name="profileUpdateDate">
+    <column id="52" parent="16" name="profileUpdateDate">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="50" parent="16" name="DOB">
+    <column id="53" parent="16" name="DOB">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <key id="51" parent="16" name="PRIMARY">
-      <columns>id</columns>
-      <primary>1</primary>
-    </key>
-    <column id="52" parent="17" name="id">
+    <column id="54" parent="16" name="conversationsReplies_id">
       <mandatory>1</mandatory>
       <data-type>bigint(20)|0</data-type>
     </column>
-    <column id="53" parent="17" name="display">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="54" parent="17" name="hillStart">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="55" parent="17" name="speakers">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="56" parent="17" name="stability">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="57" parent="17" name="vPower">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="58" parent="17" name="category">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="59" parent="17" name="color">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="60" parent="17" name="comments">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="61" parent="17" name="fuelConsumption">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="62" parent="17" name="gearType">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="63" parent="17" name="make">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="64" parent="17" name="model">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="65" parent="17" name="owner">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="66" parent="17" name="photo">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="67" parent="17" name="plateNumber">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="68" parent="17" name="pricePerDay">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="69" parent="17" name="seats">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <column id="70" parent="17" name="type">
-      <data-type>varchar(255)|0</data-type>
-    </column>
-    <key id="71" parent="17" name="PRIMARY">
-      <columns>id</columns>
-      <primary>1</primary>
-    </key>
-    <column id="72" parent="18" name="id">
+    <column id="55" parent="16" name="conversationses_id">
       <mandatory>1</mandatory>
       <data-type>bigint(20)|0</data-type>
     </column>
-    <column id="73" parent="18" name="LastName">
+    <key id="56" parent="16" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="57" parent="17" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="58" parent="17" name="display">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="74" parent="18" name="dataPosted">
+    <column id="59" parent="17" name="hillStart">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="75" parent="18" name="email">
+    <column id="60" parent="17" name="speakers">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="76" parent="18" name="firstName">
+    <column id="61" parent="17" name="stability">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="77" parent="18" name="message">
+    <column id="62" parent="17" name="vPower">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="63" parent="17" name="category">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="64" parent="17" name="color">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="65" parent="17" name="comments">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="66" parent="17" name="fuelConsumption">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="67" parent="17" name="gearType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="68" parent="17" name="make">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="69" parent="17" name="model">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="70" parent="17" name="owner">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="71" parent="17" name="photo">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="72" parent="17" name="plateNumber">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="73" parent="17" name="pricePerDay">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="74" parent="17" name="seats">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="75" parent="17" name="type">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="76" parent="17" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="77" parent="18" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="78" parent="18" name="LastName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="79" parent="18" name="dataPosted">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="80" parent="18" name="email">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="81" parent="18" name="firstName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="82" parent="18" name="message">
       <data-type>text|0</data-type>
     </column>
-    <key id="78" parent="18" name="PRIMARY">
+    <key id="83" parent="18" name="PRIMARY">
       <columns>id</columns>
       <primary>1</primary>
     </key>
-    <column id="79" parent="19" name="id">
+    <column id="84" parent="19" name="id">
       <mandatory>1</mandatory>
       <data-type>bigint(20)|0</data-type>
     </column>
-    <column id="80" parent="19" name="bookingDate">
+    <column id="85" parent="19" name="bookingDate">
       <data-type>datetime|0</data-type>
     </column>
-    <column id="81" parent="19" name="carExtrasId">
+    <column id="86" parent="19" name="carExtrasId">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="82" parent="19" name="carId">
+    <column id="87" parent="19" name="carId">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="83" parent="19" name="carMillage">
+    <column id="88" parent="19" name="carMillage">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="84" parent="19" name="pickuplocation">
+    <column id="89" parent="19" name="pickuplocation">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="85" parent="19" name="returnDate">
+    <column id="90" parent="19" name="returnDate">
       <data-type>datetime|0</data-type>
     </column>
-    <column id="86" parent="19" name="carMillag">
+    <column id="91" parent="19" name="carMillag">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="87" parent="19" name="returnLocation">
+    <column id="92" parent="19" name="returnLocation">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="88" parent="19" name="vehicles_id">
+    <column id="93" parent="19" name="vehicles_id">
       <data-type>bigint(20)|0</data-type>
     </column>
-    <index id="89" parent="19" name="FK_sdnofgren33phqm158eicpk05">
+    <index id="94" parent="19" name="FK_sdnofgren33phqm158eicpk05">
       <columns>vehicles_id</columns>
       <desc-columns></desc-columns>
     </index>
-    <key id="90" parent="19" name="PRIMARY">
+    <key id="95" parent="19" name="PRIMARY">
       <columns>id</columns>
       <primary>1</primary>
     </key>
-    <foreign-key id="91" parent="19" name="FK_sdnofgren33phqm158eicpk05">
+    <foreign-key id="96" parent="19" name="FK_sdnofgren33phqm158eicpk05">
       <columns>vehicles_id</columns>
       <ref-key>~.vehicles.PRIMARY</ref-key>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <column id="92" parent="20" name="vehicles_id">
+    <column id="97" parent="20" name="vehicles_id">
       <mandatory>1</mandatory>
       <data-type>bigint(20)|0</data-type>
     </column>
-    <column id="93" parent="20" name="extrases_id">
+    <column id="98" parent="20" name="extrases_id">
       <mandatory>1</mandatory>
       <data-type>bigint(20)|0</data-type>
     </column>
-    <index id="94" parent="20" name="FK_ib0lijqara7tw319tnkt6eqi4">
+    <index id="99" parent="20" name="FK_ib0lijqara7tw319tnkt6eqi4">
       <columns>vehicles_id</columns>
       <desc-columns></desc-columns>
     </index>
-    <index id="95" parent="20" name="UK_lhmq9qw7ue7btx18t3eg7qit1">
+    <index id="100" parent="20" name="UK_lhmq9qw7ue7btx18t3eg7qit1">
       <columns>extrases_id</columns>
       <desc-columns></desc-columns>
       <unique>1</unique>
     </index>
-    <key id="96" parent="20" name="UK_lhmq9qw7ue7btx18t3eg7qit1">
+    <key id="101" parent="20" name="UK_lhmq9qw7ue7btx18t3eg7qit1">
       <columns>extrases_id</columns>
       <underlying-index>UK_lhmq9qw7ue7btx18t3eg7qit1</underlying-index>
     </key>
-    <foreign-key id="97" parent="20" name="FK_ib0lijqara7tw319tnkt6eqi4">
+    <foreign-key id="102" parent="20" name="FK_ib0lijqara7tw319tnkt6eqi4">
       <columns>vehicles_id</columns>
       <ref-key>~.vehicles.PRIMARY</ref-key>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <foreign-key id="98" parent="20" name="FK_lhmq9qw7ue7btx18t3eg7qit1">
+    <foreign-key id="103" parent="20" name="FK_lhmq9qw7ue7btx18t3eg7qit1">
       <columns>extrases_id</columns>
       <ref-key>~.VehicleExtras.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="104" parent="21" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="105" parent="21" name="ip">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="106" parent="21" name="status">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="107" parent="21" name="time">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="108" parent="21" name="userOne_id">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="109" parent="21" name="userTwo_id">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="110" parent="21" name="FK_lr36ylqoaqi984qwyuagcdt0u">
+      <columns>userOne_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="111" parent="21" name="FK_tcokmia9d263kyertjhsk2m3x">
+      <columns>userTwo_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="112" parent="21" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="113" parent="21" name="FK_lr36ylqoaqi984qwyuagcdt0u">
+      <columns>userOne_id</columns>
+      <ref-key>~.user.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="114" parent="21" name="FK_tcokmia9d263kyertjhsk2m3x">
+      <columns>userTwo_id</columns>
+      <ref-key>~.user.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="115" parent="22" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="116" parent="22" name="message">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="117" parent="22" name="date_time_sent">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="118" parent="22" name="receiver">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="119" parent="22" name="roomId">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="120" parent="22" name="sender">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="121" parent="22" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="122" parent="23" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="123" parent="23" name="ip">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="124" parent="23" name="reply_Text">
+      <data-type>text|0</data-type>
+    </column>
+    <column id="125" parent="23" name="status">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="126" parent="23" name="time">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="127" parent="23" name="conversations_id">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="128" parent="23" name="user_id">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <index id="129" parent="23" name="FK_4xg3ukbc20tw3skdrl9ktulq">
+      <columns>user_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="130" parent="23" name="FK_nia24bta4j577warta4f3kxm0">
+      <columns>conversations_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="131" parent="23" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="132" parent="23" name="FK_nia24bta4j577warta4f3kxm0">
+      <columns>conversations_id</columns>
+      <ref-key>~.Conversations.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="133" parent="23" name="FK_4xg3ukbc20tw3skdrl9ktulq">
+      <columns>user_id</columns>
+      <ref-key>~.user.PRIMARY</ref-key>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>

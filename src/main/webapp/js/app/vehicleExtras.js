@@ -61,7 +61,6 @@ var extras={
                 if(ajax.status == 200){
                     var response=ajax.responseText;
                     document.getElementById('ajax-content').innerHTML = response;
-                    console.log(response);
                     var jsonRecord = JSON.parse(response);
 
                     var data = "<div class=\"content-panel\">";
@@ -100,7 +99,6 @@ var extras={
 
                         var uploadUrl='uploads/VehicleExtras/';
                         var id = jsonRecord[i].id;
-                        console.log(id);
                         data+="<tr class=\"gradeA\">";
                         data+="<td></td>"
                         data+="<td>"+jsonRecord[i].owner+"</td>";

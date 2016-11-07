@@ -77,7 +77,7 @@ var vehicle={
                         var uploadUrl = 'uploads/';
                         var id = jsonRecords[i].id;
 
-                    view+='<div class="item category4 category5">'
+                    view+='<div class="item category4 category5" style="float: left;">'
                     +'<div class="image"><img src=" '+ uploadUrl +jsonRecords[i].photo+'" alt=""/></div>'
                     +' <div class="info">'
 

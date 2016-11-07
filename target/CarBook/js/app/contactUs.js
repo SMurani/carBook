@@ -43,8 +43,6 @@ var contactus={
                     var resp=ajax.responseText;
                     document.getElementById('ajax-content').innerHTML = resp;
                     var jsonRecords = JSON.parse(resp);
-                    console.log(resp);
-
                     var data = "<div class=\"content-panel\">";
                     data+=" <div class=\"adv-table\">";
                     data+="<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"display table table-bordered\" id=\"hidden-table-info\">";
@@ -71,7 +69,6 @@ var contactus={
 
                     for (var i in jsonRecords){
                         var id = jsonRecords[i].id;
-                        console.log(id);
                         data+="<tr class=\"gradeA\">";
                         data+="<td></td>"
                         data+="<td>"+jsonRecords[i].datePosted+"</td>";

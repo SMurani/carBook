@@ -577,7 +577,7 @@
 <!-----------------Table End-------->
 
 <script src="js/app/searchVehicle.js"></script>
-    <script src="js/app/try.js"></script>
+   <%-- <script src="js/app/try.js"></script>--%>
 
 <script src="js/alertifyjs/alertify.min.js"></script>
 <script src="js/alertifyjs/alertify.js"></script>

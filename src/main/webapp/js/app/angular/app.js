@@ -109,9 +109,9 @@ var car={
     }
 };
 
-(function init(){
+/*(function init(){
      car.loadTable();
-})();
+})();*/
 
 
 

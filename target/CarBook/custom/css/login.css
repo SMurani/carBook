@@ -146,5 +146,30 @@
     min-height: 70px;
     padding: 15px;
 }
-
+ul.sidebar-menu li a span {
+    display: inline-block;
+}
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:focus, ul.sidebar-menu li a:hover {
+    color: #fff;
+}
+ul.sidebar-menu li a {
+    color: #aeb2b7;
+    font-size: 12px;
+}
+ul.sidebar-menu li.sub-menu {
+    line-height: 15px;
+}
+ul li {
+    list-style: none;
+}
+ul.sidebar-menu li.sub-menu {
+    line-height: 15px;
+}
+ul li {
+    list-style: none;
+}
+.sub-menu.sub li{
+    padding-left:32px
+}
+#sidebar .sub-menu
 

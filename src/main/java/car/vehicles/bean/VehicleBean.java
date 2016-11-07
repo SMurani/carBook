@@ -5,11 +5,14 @@ package car.vehicles.bean;
 import car.vehicles.dao.VehicleDaoI;
 import car.vehicles.model.Vehicles;
 
+
 import javax.annotation.PostConstruct;
 import javax.ejb.Stateless;
 import javax.ejb.TransactionManagement;
 import javax.ejb.TransactionManagementType;
 import javax.inject.Inject;
+import javax.json.JsonException;
+import javax.json.JsonObject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.HashMap;
@@ -79,6 +82,36 @@ public class VehicleBean implements VehicleBeanI {
 
         sb.append("]");
 
+        return sb.toString();
+
+    }
+
+    public String listInJson2() throws JsonException {
+        List<Vehicles> vehicles = vehicleDao.active2();
+        StringBuilder sb = new StringBuilder();
+        try{
+
+            sb.append("[")
+            .append("\"totalCount\": \"").append(vehicleDao.countAll()).append("\",")
+            .append("\"list\":").append("\"[");
+
+            int count = vehicleDao.countAll();
+            for(Vehicles vehicle : vehicles){
+                sb.append(vehicle.getJson());
+
+                count--;
+
+                if(count >= 1)
+                    sb.append(",");
+            }
+
+            sb.append("]");
+
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        System.out.println("The outPut is  ================================" +sb.toString());
         return sb.toString();
 
     }

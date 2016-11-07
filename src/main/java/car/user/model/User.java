@@ -1,9 +1,13 @@
 package car.user.model;
 
+/*import car.chat.model.Conversations;
+import car.chat.model.ConversationsReply;*/
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 import javax.persistence.*;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -45,7 +49,10 @@ public class User implements Serializable {
     @Id@GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private Long id;
+
     @Column
+    @Size(min = 1, max = 25)
+    @Pattern(regexp = "[^0-9]*", message = "Must not contain numbers")
     private String firstName;
     @Column
     private String lastName;
@@ -277,6 +284,25 @@ public class User implements Serializable {
     }
 
 
+   /* @ManyToOne(optional = false)
+    private Conversations conversationses;
 
+    public Conversations getConversationses() {
+        return conversationses;
+    }
 
+    public void setConversationses(Conversations conversationses) {
+        this.conversationses = conversationses;
+    }
+
+    @ManyToOne(optional = false)
+    private ConversationsReply conversationsReplies;
+
+    public ConversationsReply getConversationsReplies() {
+        return conversationsReplies;
+    }
+
+    public void setConversationsReplies(ConversationsReply conversationsReplies) {
+        this.conversationsReplies = conversationsReplies;
+    }*/
 }

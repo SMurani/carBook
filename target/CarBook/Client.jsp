@@ -32,6 +32,12 @@
   <%--  <link href="renty-car-rental-and-booking-html5-template/css/style.css" rel="stylesheet">--%>
 </head>
 <body class="responsive">
+<%
+    if (session.getAttribute("user")==null)
+    {
+        response.sendRedirect("login.jsp");
+    }
+%>
 <div class="loader">
     <div class="inside">
         <div class="circle-outer"></div>
@@ -232,6 +238,7 @@
                                                                     .toString().toUpperCase());
                                                         }
                                                     %>
+                                                   <%-- <p>Welcome ${user}</p>--%>
 
                                                 </section>
                                             </div>
@@ -258,7 +265,7 @@
                                     <li class="list-group-item"> <span class="badge">2</span> <a href="#"><i class="fa fa-edit"></i> Manage Ads</a></li>
                                     <li class="list-group-item"> <a href="#" onclick="profile.listProfileDashboard()"><i class="fa fa-user"></i> My Profile</a></li>
                                     <li class="list-group-item"> <a href="#"><i class="fa fa-cog"></i> Account Settings</a></li>
-                                    <li class="list-group-item"> <a href="index.jsp"><i class="fa fa-sign-out"></i> Log Out</a></li>
+                                    <li class="list-group-item"> <a href="#" onclick="user.logout()"><i class="fa fa-sign-out"></i> Log Out</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -15,6 +15,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 
 import car.user.bean.UserBeanI;
@@ -38,6 +39,8 @@ public class UserAction extends HttpServlet {
             this.load(request,response);
         else if(path.equalsIgnoreCase("loggedDetails"))
             this.loggedDetails(request,response);
+        else if (path.equalsIgnoreCase("logout"))
+            this.logout(request, response);
         else
             this.list(request, response);
 
@@ -232,96 +235,17 @@ public class UserAction extends HttpServlet {
 
 
     }
- /*   public void register(HttpServletResponse resp, HttpServletRequest req)
+    private void logout(HttpServletRequest request, HttpServletResponse response)
         throws ServletException, IOException{
+        HttpSession session =request.getSession();
+        session.removeAttribute("user");
+        session.invalidate();
+        //response.sendRedirect("Login.jsp");
+        PrintWriter writer = response.getWriter();
+        writer.println("index.jsp");
+       // writer.print();
 
-        User user = new User();
-
-        if (req.getParameter("id") != null
-                && !req.getParameter("id").equals("undefined"))
-            user.setId(Long.parseLong(req.getParameter("id")));
-
-        String password = req.getParameter("password");
-        String hashedPass ="";
-        try {
-            hashedPass = hashPassword(password);
-        } catch (NoSuchAlgorithmException e) {
-
-            e.printStackTrace();
-        }
-        user.setPassword(hashedPass);
-        user.setUsername(req.getParameter("email"));
-        user.setEmail(req.getParameter("username"));
-        String uT="3";
-        user.setUserType(uT);
-
-        user.setFirstName(req.getParameter("fname"));
-        user.setLastName(req.getParameter("lname"));
-        user.setIdNumber(req.getParameter("idNumber"));
-        DateFormat simDateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-        Date date = new Date();
-        user.setRegistrationDate(simDateFormat.format(date));
-
-
-        PrintWriter writer = resp.getWriter();
-
-        try{
-            userBean.create(user);
-
-            writer.println("<p>Registration successful, please log in</p>");
-
-        }
-        catch(Exception e)
-        {
-            writer.println("<p>An error occured: "+e.getMessage()+"</p>");
-
-        }
-
-    }*/
-    /*public void update(HttpServletRequest req, HttpServletResponse resp)
-        throws ServletException, IOException{
-
-        User user = new User();
-
-        if (req.getParameter("id") != null
-                && !req.getParameter("id").equals("undefined"))
-            user.setId(Long.parseLong(req.getParameter("id")));
-
-
-        user.setUsername(req.getParameter("email"));
-        user.setEmail(req.getParameter("username"));
-        user.setFirstName(req.getParameter("fname"));
-        user.setLastName(req.getParameter("lname"));
-        user.setIdNumber(req.getParameter("idNumber"));
-        DateFormat simDateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-        Date date = new Date();
-        user.setRegistrationDate(simDateFormat.format(date));
-        user.setPhoneNumber(req.getParameter("phoneNumber"));
-        user.setTown(req.getParameter("town"));
-        user.setIssuingAuthority(req.getParameter("issuingAuthority"));
-        user.setDrivingLicenceNumber(req.getParameter("drivingLicenceNumber"));
-        user.setDrivingLicenceDetails(req.getParameter("dlDetails"));
-        user.setHomeAddress(req.getParameter("homeAddress"));
-        user.setCountry(req.getParameter("country"));
-
-
-        PrintWriter writer = resp.getWriter();
-
-        try{
-            userBean.create(user);
-
-            writer.println("<p>Update was Successful</p>");
-
-        }
-        catch(Exception e)
-        {
-            writer.println("<p>An error occured While Updating your records: "+e.getMessage()+"</p>");
-
-        }
-
-    }*/
-
-
+    }
 
 
 }

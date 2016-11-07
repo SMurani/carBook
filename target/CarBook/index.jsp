@@ -165,66 +165,6 @@
                                 <dd></dd>
                                 <dt class="item"> <a href="contact.jsp" class="btn-main">Contact</a> </dt>
                                 <dd></dd>
-                             <%--   <dt>
-                                <div class="gallery col-sm-2">
-                                    <div class="">
-
-                                        <div class="info">
-
-                                            <p><a href="#" class="read-more">Login</a></p>
-                                        </div>
-                                        <div class="details-box col-sm-6 pull-left"> <span class="box-close ">&times;</span>
-                                            <div class="title">Log in to your Account</div>
-                                            <div class="inside">
-                                                <div class="">
-
-                                                    <div class="details-list">
-                                                        <div id="login-page">
-                                                            <div class="container">
-
-                                                                <div class="col-lg-6">
-
-                                                                    <form class="form-login col-lg-6"  id="login-form" action="${pageContext.request.contextPath}/RentalCars" method="post" role="form" style="display: block;">
-                                                                        <h3 class="form-login-heading">sign in now</h3>
-                                                                        <div class="login-wrap">
-
-                                                                            <input type="text" class="form-control" name="username" id="username" tabindex="1"  placeholder="Username" autofocus value="" required="">
-                                                                            <br>
-
-                                                                            <input type="password" class="form-control" name="password" id="password" tabindex="2"  placeholder="Password" required="">
-
-                                                                            </label>
-
-                                                                            <button class="btn btn-theme btn-block"  name="login-submit" id="login-submit" type="submit"><i class="fa fa-lock"></i> SIGN IN</button>
-
-                                                                            <br>
-                                                                            <label id="login-ajax-content" class="text-danger"></label>
-
-
-
-                                                                            <div class="registration">
-                                                                                Don't have an account yet?<br/>
-                                                                                <a class="" href="register.jsp">
-                                                                                    Create an account
-                                                                                </a>
-                                                                            </div>
-
-                                                                        </div>
-
-
-                                                                    </form>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                </dt>--%>
 
                             </dl>
                         </div>
@@ -426,6 +366,14 @@
                         <div class="loading"><img src="24-rental-car/images/ajax-loader.gif" alt="" class="ajaxloader"></div>
                     </div>
                 </li>
+
+                <li class="item item-03 youtube"> <a href="24-rental-car/social/dialog/chat.html" class="tab-icon"><span class="icon icon-youtube flaticon-youtube18"></span></a>
+                    <div class="tab-content">
+                        <div class="title">Chat with Us</div>
+                        <div class="loading"><img src="24-rental-car/images/ajax-loader.gif" alt="" class="ajaxloader"></div>
+                    </div>
+                </li>
+
             </ul>
         </section>
         <!-- //end Social widgets -->

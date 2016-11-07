@@ -19,6 +19,7 @@ public interface VehicleBeanI {
     boolean delete(Long id);
 
     String listInJson();
+    String listInJson2();
 
     String loadCategory(String category);
     int countVehicleSearch(String Category);

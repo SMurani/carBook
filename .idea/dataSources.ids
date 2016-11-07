@@ -6,4 +6,7 @@
   <data-source name="primary/Hibernate" uuid="0b725ca7-7fc1-460b-9b91-cb100e833865">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source name="Oracle - @localhost" uuid="992e829c-283b-4006-9d5d-8e340604e83b">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

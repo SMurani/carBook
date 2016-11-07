@@ -211,63 +211,7 @@
                     <div class="text-center">
                         <div class="col-sm-8" id="ajax-content">
 
-                            <%--<!-- page start-->
-                            <div class="chat-room mt">
-                                <aside class="mid-side">
-                                    <div class="chat-room-head">
-                                        <h3>Order Details</h3>
 
-                                    </div>
-                                    <div class="group-rom">
-                                        <div class="first-part odd">Vehicle Model</div>
-                                        <div class="second-part">Hi Mark, have a minute?</div>
-                                        <div class="third-part">12:30</div>
-                                    </div>
-                                    <div class="group-rom">
-                                        <div class="first-part">Vehicle Type</div>
-                                        <div class="second-part">Of course Sam, what you need?</div>
-                                        <div class="third-part">12:31</div>
-                                    </div>
-                                    <div class="group-rom">
-                                        <div class="first-part odd">Vehicle Color</div>
-                                        <div class="second-part">I want you examine the new product</div>
-                                        <div class="third-part">12:32</div>
-                                    </div>
-                                    <div class="group-rom">
-                                        <div class="first-part">No of Seats</div>
-                                        <div class="second-part">Ok, send me the pic</div>
-                                        <div class="third-part">12:32</div>
-                                    </div>
-                                    <div class="group-rom">
-                                        <div class="first-part odd">Fuel Consumption</div>
-                                        <div class="second-part"><a href="#">product.jpg</a> <span class="text-muted">35.4KB</span>
-                                            <p><img class="img-responsive" src="dashgum/assets/img/product.jpg" alt=""></p></div>
-                                        <div class="third-part">12:32</div>
-                                    </div>
-                                    <div class="group-rom">
-                                        <div class="first-part">No of Seats</div>
-                                        <div class="second-part">Fantastic job, love it :)</div>
-                                        <div class="third-part">12:32</div>
-                                    </div>
-                                    <div class="group-rom">
-                                        <div class="first-part odd">Gear Type</div>
-                                        <div class="second-part">Thanks!!</div>
-                                        <div class="third-part">12:33</div>
-                                    </div>
-                                    <div class="group-rom">
-                                        <div class="first-part ">Photo</div>
-                                        <div class="second-part">Thanks!!</div>
-                                        <div class="third-part">12:33</div>
-                                    </div>
-                                    <div class="group-rom">
-                                        <div class="first-part odd">Extras</div>
-                                        <div class="second-part">Thanks!!</div>
-                                        <div class="third-part">12:33</div>
-                                    </div>
-                                </aside>
-
-                            </div>
-                            <!-- page end-->--%>
                         </div>
                         <div id="ajax-extra" class="col-sm-4 pull-right">
 
